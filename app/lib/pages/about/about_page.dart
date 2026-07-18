@@ -1,28 +1,19 @@
-import 'package:collection/collection.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/pages/debug/debug_page.dart';
+import 'package:localsend_app/provider/version_provider.dart';
 import 'package:localsend_app/widget/custom_basic_appbar.dart';
 import 'package:localsend_app/widget/pixelfile_logo.dart';
 import 'package:localsend_app/widget/responsive_list_view.dart';
-import 'package:routerino/routerino.dart';
+import 'package:refena_flutter/refena_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-part 'contributors.dart';
-
-part 'packagers.dart';
-
-part 'translators.dart';
-
-final _translatorWithGithubRegex = RegExp(r'(.+) \(@([\w\-_]+)\)');
 
 class AboutPage extends StatelessWidget {
   const AboutPage();
 
   @override
   Widget build(BuildContext context) {
-    final primaryColor = Theme.of(context).colorScheme.primary;
+    final version = context.ref.watch(versionProvider);
+
     return Scaffold(
       appBar: basicPixelFileAppbar(t.aboutPage.title),
       body: ResponsiveListView(
@@ -30,11 +21,40 @@ class AboutPage extends StatelessWidget {
         children: [
           const SizedBox(height: 20),
           const PixelFileLogo(withText: true),
-          Text(
-            '© ${DateTime.now().year} Tien Do Nam',
+          const SizedBox(height: 4),
+          const Text(
+            'PixelFile',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
             textAlign: TextAlign.center,
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 8),
+          version.maybeWhen(
+            data: (value) => Text(
+              '版本 $value',
+              style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
+              textAlign: TextAlign.center,
+            ),
+            orElse: () => const SizedBox.shrink(),
+          ),
+          const SizedBox(height: 32),
+          const Text(
+            '济南像素引擎人工智能有限公司',
+            style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 18),
+          const Text(
+            'Content enriches life!',
+            style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 6),
+          const Text(
+            '内容让生活更有料',
+            style: TextStyle(fontSize: 16),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 18),
           Center(
             child: TextButton(
               onPressed: () async {
@@ -43,178 +63,9 @@ class AboutPage extends StatelessWidget {
               child: const Text('www.pixelfuel.cn'),
             ),
           ),
-          const SizedBox(height: 10),
-          Text(t.aboutPage.description.join('\n\n')),
-          const SizedBox(height: 20),
-          Text(t.aboutPage.author, style: const TextStyle(fontWeight: FontWeight.bold)),
-          Text.rich(
-            _buildContributor(
-              label: 'Tien Do Nam (@Tienisto)',
-              primaryColor: primaryColor,
-            ),
-          ),
-          const SizedBox(height: 20),
-          Text(t.aboutPage.contributors, style: const TextStyle(fontWeight: FontWeight.bold)),
-          ..._contributors.map((contributor) {
-            return Text.rich(
-              _buildContributor(
-                label: contributor,
-                primaryColor: primaryColor,
-              ),
-            );
-          }),
-          const SizedBox(height: 20),
-          Text(t.aboutPage.packagers, style: const TextStyle(fontWeight: FontWeight.bold)),
-          Table(
-            columnWidths: const {
-              0: IntrinsicColumnWidth(),
-              1: FlexColumnWidth(),
-            },
-            children: [
-              ..._packagers.entries.map(
-                (e) => TableRow(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Text(e.key),
-                    ),
-                    Text.rich(
-                      TextSpan(
-                        children: e.value.mapIndexed(
-                          (index, translator) {
-                            return _buildContributor(
-                              label: translator,
-                              primaryColor: primaryColor,
-                              newLine: index != 0,
-                            );
-                          },
-                        ).toList(),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 20),
-          Text(t.aboutPage.translators, style: const TextStyle(fontWeight: FontWeight.bold)),
-          Table(
-            columnWidths: const {
-              0: IntrinsicColumnWidth(),
-              1: FlexColumnWidth(),
-            },
-            children: [
-              ..._translators.entries.map(
-                (e) => TableRow(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Text(e.key.translations.locale),
-                    ),
-                    Text.rich(
-                      TextSpan(
-                        children: e.value.mapIndexed(
-                          (index, translator) {
-                            return _buildContributor(
-                              label: translator,
-                              primaryColor: primaryColor,
-                              newLine: index != 0,
-                            );
-                          },
-                        ).toList(),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 20),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              TextButton(
-                onPressed: () async {
-                  await launchUrl(Uri.parse('https://www.pixelfuel.cn'));
-                },
-                child: const Text('Homepage'),
-              ),
-              TextButton(
-                onPressed: () async {
-                  await launchUrl(Uri.parse('https://github.com/localsend/localsend'), mode: LaunchMode.externalApplication);
-                },
-                child: const Text('Source Code (Github)'),
-              ),
-              TextButton(
-                onPressed: () async {
-                  await launchUrl(Uri.parse('https://codeberg.org/localsend/localsend'), mode: LaunchMode.externalApplication);
-                },
-                child: const Text('Source Code (Codeberg)'),
-              ),
-              TextButton(
-                onPressed: () async {
-                  await launchUrl(Uri.parse('https://www.apache.org/licenses/LICENSE-2.0'));
-                },
-                child: const Text('Apache License 2.0'),
-              ),
-              TextButton(
-                onPressed: () async {
-                  await context.push(() => const LicensePage());
-                },
-                child: const Text('License Notices'),
-              ),
-              TextButton(
-                onPressed: () async {
-                  await context.push(() => const DebugPage());
-                },
-                child: const Text('Debugging'),
-              ),
-            ],
-          ),
           const SizedBox(height: 50),
         ],
       ),
     );
   }
-}
-
-/// Displays the contributor name and links to their github profile.
-InlineSpan _buildContributor({required String label, required Color primaryColor, bool newLine = false}) {
-  final newLineStr = newLine ? '\n' : '';
-
-  if (label.startsWith('@')) {
-    // Only github name
-    return TextSpan(
-      text: '$newLineStr$label',
-      style: TextStyle(color: primaryColor),
-      recognizer: TapGestureRecognizer()
-        ..onTap = () async {
-          await launchUrl(Uri.parse('https://github.com/${label.substring(1)}'), mode: LaunchMode.externalApplication);
-        },
-    );
-  }
-
-  final match = _translatorWithGithubRegex.firstMatch(label);
-  if (match != null) {
-    // Full name and github name
-    final fullName = match.group(1)!;
-    final githubName = match.group(2)!;
-    return TextSpan(
-      children: [
-        TextSpan(text: '$newLineStr$fullName'),
-        const TextSpan(text: ' '),
-        TextSpan(
-          text: '@$githubName',
-          style: TextStyle(color: primaryColor),
-          recognizer: TapGestureRecognizer()
-            ..onTap = () async {
-              await launchUrl(Uri.parse('https://github.com/$githubName'), mode: LaunchMode.externalApplication);
-            },
-        ),
-      ],
-    );
-  }
-
-  // Only full name
-  return TextSpan(text: '$newLineStr$label');
 }
