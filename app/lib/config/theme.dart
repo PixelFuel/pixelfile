@@ -9,6 +9,8 @@ import 'package:refena_flutter/refena_flutter.dart';
 import 'package:yaru/yaru.dart' as yaru;
 
 final _borderRadius = BorderRadius.circular(5);
+const pixelFileBrandColor = Color(0xFFFAC88C);
+const _onPixelFileBrandColor = Color(0xFF332516);
 
 /// On desktop, we need to add additional padding to achieve the same visual appearance as on mobile
 double get desktopPaddingFix => checkPlatformIsDesktop() ? 8 : 0;
@@ -142,9 +144,11 @@ extension InputDecorationThemeExt on InputDecorationThemeData {
 }
 
 ColorScheme _determineColorScheme(ColorMode mode, Brightness brightness, DynamicColors? dynamicColors) {
-  final defaultColorScheme = ColorScheme.fromSeed(
-    seedColor: Colors.teal,
-    brightness: brightness,
+  final defaultColorScheme = ColorScheme.fromSeed(seedColor: pixelFileBrandColor, brightness: brightness).copyWith(
+    primary: pixelFileBrandColor,
+    onPrimary: _onPixelFileBrandColor,
+    secondary: pixelFileBrandColor,
+    onSecondary: _onPixelFileBrandColor,
   );
 
   final colorScheme = switch (mode) {

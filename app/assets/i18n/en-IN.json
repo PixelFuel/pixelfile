@@ -1,6 +1,6 @@
 {
   "locale": "English(India)",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Accept",
     "accepted": "Accepted",
@@ -108,7 +108,7 @@
       "minimizeToTray": "Quit: Minimize to Tray/Menu Bar",
       "launchAtStartup": "Autostart after login",
       "launchMinimized": "Autostart: Start hidden",
-      "showInContextMenu": "Show PixelFile in context menu",
+      "showInContextMenu": "Show 像素快传 in context menu",
       "animations": "Animations"
     },
     "receive": {
@@ -149,7 +149,7 @@
     },
     "other": {
       "title": "Other",
-      "support": "Support PixelFile",
+      "support": "Support 像素快传",
       "donate": "Donate",
       "privacyPolicy": "Privacy Policy",
       "termsOfUse": "Terms of Use"
@@ -208,7 +208,7 @@
   "receiveOptionsPage": {
     "title": "Options",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(PixelFile folder)",
+    "appDirectory": "(像素快传 folder)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Turned off automatically because there are directories."
   },
@@ -257,13 +257,13 @@
     "autoAccept": "Automatically accept requests",
     "requirePin": "Require PIN",
     "pinHint": "The PIN is \"{pin}\"",
-    "encryptionHint": "PixelFile uses a self-signed certificate. You need to accept it in your browser.",
+    "encryptionHint": "像素快传 uses a self-signed certificate. You need to accept it in your browser.",
     "pendingRequests": "Pending requests: {n}"
   },
   "aboutPage": {
-    "title": "About PixelFile",
+    "title": "About 像素快传",
     "description": [
-      "PixelFile is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.",
+      "像素快传 is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.",
       "This app is available on Android, iOS, macOS, Windows and Linux. You can find all download options on the official homepage."
     ],
     "author": "Author",
@@ -273,7 +273,7 @@
   },
   "donationPage": {
     "title": "Donate",
-    "info": "PixelFile is free, open-source and without any ads. If you like the app, you can support the development with a donation.",
+    "info": "像素快传 is free, open-source and without any ads. If you like the app, you can support the development with a donation.",
     "donate": "Donate {amount}",
     "thanks": "Thank you very much!",
     "restore": "Restore purchase"
@@ -419,7 +419,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "PixelFile can't find other devices without having the permission to scan the local network. Please grant this permission in the settings.",
+      "description": "像素快传 can't find other devices without having the permission to scan the local network. Please grant this permission in the settings.",
       "gotoSettings": "Settings"
     },
     "messageInput": {
@@ -468,7 +468,7 @@
       "title": "Send modes",
       "single": "Sends files to one recipient. Selection will be cleared after finished file transfer.",
       "multiple": "Sends files to multiple recipients. Selection will not be cleared.",
-      "link": "Recipients who do not have PixelFile installed can download the selected files by opening the link in their browser."
+      "link": "Recipients who do not have 像素快传 installed can download the selected files by opening the link in their browser."
     },
     "zoom": {
       "title": "URL"
@@ -481,7 +481,7 @@
   "tray": {
     "@info": "Apple Guidelines are very strict about the 'close' wording.",
     "open": "@:general.open",
-    "close": "Quit PixelFile",
+    "close": "Quit 像素快传",
     "closeWindows": "Exit"
   },
   "web": {
@@ -527,7 +527,7 @@
   },
   "networkInterfacesPage": {
     "preview": "Preview",
-    "info": "By default, PixelFile uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.",
+    "info": "By default, 像素快传 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.",
     "whitelist": "Whitelist",
     "blacklist": "Blacklist",
     "title": "Network Interfaces"

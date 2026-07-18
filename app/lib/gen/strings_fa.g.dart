@@ -760,7 +760,7 @@ class _Translations$networkInterfacesPage$fa extends Translations$networkInterfa
   String get title => 'رابط‌های شبکه';
   @override
   String get info =>
-      'به طور پیش فرض، PixelFile از تمام رابط های شبکه موجود استفاده می کند. در اینجا می توانید شبکه های ناخواسته را حذف کنید. برای اعمال تغییرات باید سرور را ریستارت کنید.';
+      'به طور پیش فرض، 像素快传 از تمام رابط های شبکه موجود استفاده می کند. در اینجا می توانید شبکه های ناخواسته را حذف کنید. برای اعمال تغییرات باید سرور را ریستارت کنید.';
   @override
   String get preview => 'پیشنمایش';
   @override

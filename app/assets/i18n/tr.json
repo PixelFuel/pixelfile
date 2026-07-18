@@ -1,6 +1,6 @@
 {
   "locale": "Türkçe",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Kabul et",
     "accepted": "Kabul edildi",
@@ -108,7 +108,7 @@
       "minimizeToTray": "Çıkış: Simge durumuna küçült",
       "launchAtStartup": "Giriş yapıldıktan sonra otomatik başlat",
       "launchMinimized": "Otomatik başlatma: Gizli Başlatma",
-      "showInContextMenu": "PixelFile'i bağlam menüsünde göster",
+      "showInContextMenu": "像素快传'i bağlam menüsünde göster",
       "animations": "Animasyonlar"
     },
     "receive": {
@@ -149,7 +149,7 @@
     },
     "other": {
       "title": "Diğer",
-      "support": "PixelFile'i destekle",
+      "support": "像素快传'i destekle",
       "donate": "Bağış yap",
       "privacyPolicy": "Gizlilik politikası",
       "termsOfUse": "Kullanım koşulları"
@@ -208,7 +208,7 @@
   "receiveOptionsPage": {
     "title": "Seçenekler",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(PixelFile klasörü)",
+    "appDirectory": "(像素快传 klasörü)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Otomatik olarak kapanır çünkü bunlar klasör."
   },
@@ -257,13 +257,13 @@
     "autoAccept": "İstekleri otomatik olarak kabul et",
     "requirePin": "PIN gerektir",
     "pinHint": "PIN \"{pin}\"",
-    "encryptionHint": "PixelFile, tarayıcıda kabul etmeniz gereken kendi-üretimli bir sertifika kullanır.",
+    "encryptionHint": "像素快传, tarayıcıda kabul etmeniz gereken kendi-üretimli bir sertifika kullanır.",
     "pendingRequests": "Bekleyen istekler: {n}"
   },
   "aboutPage": {
-    "title": "PixelFile hakkında",
+    "title": "像素快传 hakkında",
     "description": [
-      "PixelFile, internet bağlantısına ihtiyaç duymadan yerel ağınız üzerinden yakınınızdaki cihazlarla dosya ve mesajlarınızı güvenli bir şekilde paylaşmanıza olanak tanıyan özgür ve açık kaynaklı bir uygulamadır.",
+      "像素快传, internet bağlantısına ihtiyaç duymadan yerel ağınız üzerinden yakınınızdaki cihazlarla dosya ve mesajlarınızı güvenli bir şekilde paylaşmanıza olanak tanıyan özgür ve açık kaynaklı bir uygulamadır.",
       "Bu uygulama Android, iOS, macOS, Windows ve Linux'ta mevcuttur. Tüm indirme seçeneklerini resmi ana sayfada bulabilirsiniz."
     ],
     "author": "Yazar",
@@ -273,7 +273,7 @@
   },
   "donationPage": {
     "title": "Bağış yap",
-    "info": "PixelFile ücretsiz, açık kaynaklı ve reklamsız bir uygulamadır. Eğer uygulamayı beğendiyseniz, bağış yaparak uygulamanın gelişimine katkıda bulunabilirsiniz.",
+    "info": "像素快传 ücretsiz, açık kaynaklı ve reklamsız bir uygulamadır. Eğer uygulamayı beğendiyseniz, bağış yaparak uygulamanın gelişimine katkıda bulunabilirsiniz.",
     "donate": "Bağışta bulun {amount}",
     "thanks": "Çok teşekkür ederim!",
     "restore": "Satın alınanları geri yükle"
@@ -345,7 +345,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "PixelFile, lokal ağı tarama iznine sahip olmadan başka cihazları bulamıyor. Lütfen bu izni ayarlarda verin.",
+      "description": "像素快传, lokal ağı tarama iznine sahip olmadan başka cihazları bulamıyor. Lütfen bu izni ayarlarda verin.",
       "gotoSettings": "Ayarlar"
     },
     "messageInput": {
@@ -386,7 +386,7 @@
       "title": "Gönderme Modu",
       "single": "Dosyaları bir alıcıya gönderir. Seçim, bitmiş dosya aktarımından sonra temizlenir.",
       "multiple": "Dosyaları birden çok alıcıya gönderir. Seçim temizlenmeyecektir.",
-      "link": "PixelFile yüklü olmayan alıcılar, tarayıcılarındaki bağlantıyı açarak seçilen dosyaları indirebilir."
+      "link": "像素快传 yüklü olmayan alıcılar, tarayıcılarındaki bağlantıyı açarak seçilen dosyaları indirebilir."
     },
     "zoom": {
       "title": "URL"
@@ -411,7 +411,7 @@
   "tray": {
     "@info": "Apple'ın yönergeleri, 'kapat' ifadesi konusunda çok katıdır.",
     "open": "@:general.open",
-    "close": "PixelFile'den çık",
+    "close": "像素快传'den çık",
     "closeWindows": "Çıkış"
   },
   "web": {
@@ -460,6 +460,6 @@
     "preview": "Önizle",
     "whitelist": "Beyaz liste",
     "blacklist": "Kara liste",
-    "info": "Varsayılan olarak, PixelFile mevcut olan tüm ağları kullanır. Burada istenmeyen ağları engelleyebilirsiniz. Değişikliklerin uygulanması için sunucuyu yeniden başlatmanız gerekir."
+    "info": "Varsayılan olarak, 像素快传 mevcut olan tüm ağları kullanır. Burada istenmeyen ağları engelleyebilirsiniz. Değişikliklerin uygulanması için sunucuyu yeniden başlatmanız gerekir."
   }
 }

@@ -1,6 +1,6 @@
 {
   "locale": "Català",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Accepta",
     "accepted": "Acceptat",
@@ -108,7 +108,7 @@
       "minimizeToTray": "Minimitza a la safata del sistema/barra de menú en tancar",
       "launchAtStartup": "Inici automàtic en iniciar la sessió",
       "launchMinimized": "Inici automàtic: Inici minimitzat",
-      "showInContextMenu": "Mostra el PixelFile al menú contextual",
+      "showInContextMenu": "Mostra el 像素快传 al menú contextual",
       "animations": "Animacions"
     },
     "receive": {
@@ -149,7 +149,7 @@
     },
     "other": {
       "title": "Altres",
-      "support": "Doneu suport al PixelFile",
+      "support": "Doneu suport al 像素快传",
       "donate": "Donació",
       "privacyPolicy": "Política de privadesa",
       "termsOfUse": "Condicions d'ús"
@@ -208,7 +208,7 @@
   "receiveOptionsPage": {
     "title": "Opcions",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(Carpeta PixelFile)",
+    "appDirectory": "(Carpeta 像素快传)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "S'ha desactivat automàticament perquè hi ha carpetes."
   },
@@ -249,13 +249,13 @@
     "autoAccept": "Accepta les peticions automàticament",
     "requirePin": "Demana un PIN",
     "pinHint": "El PIN és «{pin}»",
-    "encryptionHint": "El PixelFile utilitza un certificat auto-signat. Cal que l'accepteu al navegador.",
+    "encryptionHint": "El 像素快传 utilitza un certificat auto-signat. Cal que l'accepteu al navegador.",
     "pendingRequests": "Peticions pendents: {n}"
   },
   "aboutPage": {
-    "title": "Quant al PixelFile",
+    "title": "Quant al 像素快传",
     "description": [
-      "El PixelFile és una aplicació gratuïta i de codi obert que us permet compartir fitxers i missatges de manera segura amb dispositius propers a la vostra xarxa local sense necessitat de connexió a Internet.",
+      "El 像素快传 és una aplicació gratuïta i de codi obert que us permet compartir fitxers i missatges de manera segura amb dispositius propers a la vostra xarxa local sense necessitat de connexió a Internet.",
       "Aquesta aplicació està disponible per a Android, iOS, macOS, Windows i Linux. Podeu trobar totes les opcions de baixada a la pàgina d'inici oficial."
     ],
     "author": "Autor",
@@ -265,7 +265,7 @@
   },
   "donationPage": {
     "title": "Donació",
-    "info": "El PixelFile és gratuït, de codi obert i sense anuncis. Si us agrada l'aplicació, podeu donar suport al desenvolupament amb una donació.",
+    "info": "El 像素快传 és gratuït, de codi obert i sense anuncis. Si us agrada l'aplicació, podeu donar suport al desenvolupament amb una donació.",
     "donate": "Donació: {amount}",
     "thanks": "Moltes gràcies!",
     "restore": "Restaura la compra"
@@ -407,7 +407,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "El PixelFile no pot trobar altres dispositius sense tenir permís per a escanejar la xarxa local. Concediu aquest permís a la configuració.",
+      "description": "El 像素快传 no pot trobar altres dispositius sense tenir permís per a escanejar la xarxa local. Concediu aquest permís a la configuració.",
       "gotoSettings": "Configuració"
     },
     "messageInput": {
@@ -456,7 +456,7 @@
       "title": "Modes d'enviament",
       "single": "Envia fitxers a un destinatari. La selecció s'esborrarà un cop finalitzada la transferència de fitxers.",
       "multiple": "Envia fitxers a diversos destinataris. La selecció no s'esborrarà en finalitzar la trasferència.",
-      "link": "Els destinataris que no tinguin el PixelFile instal·lat poden baixar els fitxers seleccionats obrint l'enllaç al seu navegador."
+      "link": "Els destinataris que no tinguin el 像素快传 instal·lat poden baixar els fitxers seleccionats obrint l'enllaç al seu navegador."
     },
     "zoom": {
       "title": "URL"
@@ -473,7 +473,7 @@
   "tray": {
     "@info": "Les directrius d'Apple són molt estrictes quant a l'expressió «tanca».",
     "open": "@:general.open",
-    "close": "Surt del PixelFile",
+    "close": "Surt del 像素快传",
     "closeWindows": "Surt"
   },
   "web": {
@@ -519,7 +519,7 @@
   },
   "networkInterfacesPage": {
     "title": "Interfícies de xarxa",
-    "info": "De manera predefinida, el PixelFile utilitza totes les interfícies de xarxa disponibles. Podeu excloure les xarxes no desitjades aquí. Cal que reinicieu el servidor per a aplicar els canvis.",
+    "info": "De manera predefinida, el 像素快传 utilitza totes les interfícies de xarxa disponibles. Podeu excloure les xarxes no desitjades aquí. Cal que reinicieu el servidor per a aplicar els canvis.",
     "preview": "Previsualitza",
     "blacklist": "Llista de denegades",
     "whitelist": "Llista de permeses"

@@ -1,6 +1,6 @@
 {
   "locale": "Slovenščina",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Sprejmi",
     "accepted": "Sprejeto",
@@ -103,7 +103,7 @@
       "minimizeToTray": "Ob zaprtju minimiziraj v sistemski pladenj / meni",
       "launchAtStartup": "Samodejni zagon po prijavi",
       "launchMinimized": "Samodejni zagon: Začni skrito",
-      "showInContextMenu": "Prikaži PixelFile v kontekstnem meniju",
+      "showInContextMenu": "Prikaži 像素快传 v kontekstnem meniju",
       "animations": "Animacije"
     },
     "receive": {
@@ -139,7 +139,7 @@
     },
     "other": {
       "title": "Drugo",
-      "support": "Podprite PixelFile",
+      "support": "Podprite 像素快传",
       "donate": "Donirajte",
       "privacyPolicy": "Politika zasebnosti",
       "termsOfUse": "Pogoji uporabe"
@@ -198,7 +198,7 @@
   "receiveOptionsPage": {
     "title": "Možnosti",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(mapa PixelFile)",
+    "appDirectory": "(mapa 像素快传)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Samodejno izklopljeno, ker obstajajo mape."
   },
@@ -239,13 +239,13 @@
     "autoAccept": "Samodejno sprejemaj zahteve",
     "requirePin": "Zahtevaj PIN",
     "pinHint": "PIN je \"{pin}\"",
-    "encryptionHint": "PixelFile uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.",
+    "encryptionHint": "像素快传 uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.",
     "pendingRequests": "Čakajoče zahteve: {n}"
   },
   "aboutPage": {
-    "title": "O PixelFile",
+    "title": "O 像素快传",
     "description": [
-      "PixelFile je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi.",
+      "像素快传 je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi.",
       "Aplikacija je na voljo za Android, iOS, macOS, Windows in Linux. Vse možnosti prenosa lahko najdete na uradni spletni strani."
     ],
     "author": "Avtor",
@@ -255,7 +255,7 @@
   },
   "donationPage": {
     "title": "Doniraj",
-    "info": "PixelFile je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.",
+    "info": "像素快传 je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.",
     "donate": "Doniraj {amount}",
     "thanks": "Najlepša hvala!",
     "restore": "Obnovi nakup"
@@ -397,7 +397,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "PixelFile ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.",
+      "description": "像素快传 ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.",
       "gotoSettings": "Nastavitve"
     },
     "messageInput": {
@@ -441,7 +441,7 @@
       "title": "Načini pošiljanja",
       "single": "Pošlje datoteke enemu prejemniku. Izbira bo po končanem prenosu izbrisana.",
       "multiple": "Pošlje datoteke več prejemnikom. Izbira po končanem prenosu ne bo izbrisana.",
-      "link": "Prejemniki, ki nimajo nameščenega PixelFile, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku."
+      "link": "Prejemniki, ki nimajo nameščenega 像素快传, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku."
     },
     "zoom": {
       "title": "URL"
@@ -454,7 +454,7 @@
   "tray": {
     "@info": "Smernice Appla so zelo stroge glede uporabe besede \"zapri\".",
     "open": "@:general.open",
-    "close": "Zapri PixelFile",
+    "close": "Zapri 像素快传",
     "closeWindows": "Izhod"
   },
   "web": {

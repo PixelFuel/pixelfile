@@ -1,6 +1,6 @@
 {
   "locale": "Azərbaycanca",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Qəbul et",
     "accepted": "Qəbul edildi",
@@ -108,7 +108,7 @@
       "minimizeToTray": "Bağlayanda Sistem Sahəsi/Menyu Cizgisinə kiçilt",
       "launchAtStartup": "Girişdən sonra birbaşa başlat",
       "launchMinimized": "Birbaşa başlat: Gizli başlat",
-      "showInContextMenu": "Məzmun menyusunda PixelFile-i göstər",
+      "showInContextMenu": "Məzmun menyusunda 像素快传-i göstər",
       "animations": "Animasiyalar"
     },
     "receive": {
@@ -150,7 +150,7 @@
     },
     "other": {
       "title": "Digər",
-      "support": "PixelFile-i dəstəklə",
+      "support": "像素快传-i dəstəklə",
       "donate": "İanə et",
       "privacyPolicy": "Məxfilik siyasəti",
       "termsOfUse": "İstifadə şərtləri"
@@ -190,7 +190,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "PixelFile lokal şəbəkəni skan etmək icazəsi olmadan digər cihazları tapa bilmir. Zəhmət olmasa, parametrlərdən bu icazəni verin.",
+      "description": "像素快传 lokal şəbəkəni skan etmək icazəsi olmadan digər cihazları tapa bilmir. Zəhmət olmasa, parametrlərdən bu icazəni verin.",
       "gotoSettings": "Parametrlər"
     },
     "quickSaveFromFavoritesNotice": {
@@ -208,7 +208,7 @@
       "title": "Göndərmə rejimləri",
       "single": "Faylları bir cihaza göndərir. Faylların ötürülməsi başa çatdıqdan sonra seçim silinəcək.",
       "multiple": "Faylları birdən çox cihaza göndərir. Faylların ötürülməsi tamamlandıqdan sonra seçim silinməyəcək.",
-      "link": "PixelFile-i quraşdırmamış alıcılar linki brauzerlərində açaraq seçilmiş faylları endirə bilərlər."
+      "link": "像素快传-i quraşdırmamış alıcılar linki brauzerlərində açaraq seçilmiş faylları endirə bilərlər."
     },
     "favoriteDialog": {
       "addFavorite": "Əlavə et",
@@ -323,10 +323,10 @@
     "autoAccept": "Sorğuları avtomatik qəbul et",
     "requirePin": "PIN tələb et",
     "pinHint": "Sizin PIN: \"{pin}\"",
-    "encryptionHint": "PixelFile özü imzalanmış sertifikatdan istifadə edir. Siz onu brauzerinizdə qəbul etməlisiniz."
+    "encryptionHint": "像素快传 özü imzalanmış sertifikatdan istifadə edir. Siz onu brauzerinizdə qəbul etməlisiniz."
   },
   "networkInterfacesPage": {
-    "info": "Defolt olaraq, PixelFile bütün mövcud şəbəkə interfeyslərindən istifadə edir. Burada istənilməyən şəbəkələri istisna edə bilərsiniz. Dəyişiklikləri tətbiq etmək üçün serveri yenidən başlatmalısınız.",
+    "info": "Defolt olaraq, 像素快传 bütün mövcud şəbəkə interfeyslərindən istifadə edir. Burada istənilməyən şəbəkələri istisna edə bilərsiniz. Dəyişiklikləri tətbiq etmək üçün serveri yenidən başlatmalısınız.",
     "whitelist": "Ağ siyahı",
     "blacklist": "Qara siyahı",
     "title": "Şəbəkə interfeysləri",
@@ -383,7 +383,7 @@
     "closeWindows": "Çıxış",
     "@info": "Apple təlimatları \"bağla\" ifadələri ilə bağlı çox ciddidir.",
     "open": "@:general.open",
-    "close": "PixelFile-dən çıx"
+    "close": "像素快传-dən çıx"
   },
   "apkPickerPage": {
     "apps": "{n} tətbiq",
@@ -403,7 +403,7 @@
   "receiveOptionsPage": {
     "title": "Seçimlər",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(PixelFile qovluğu)",
+    "appDirectory": "(像素快传 qovluğu)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Qovluqlar olduğu üçün avtomatik söndürülür."
   },
@@ -424,7 +424,7 @@
     "savedToGallery": "Qalereyada saxlanıldı"
   },
   "donationPage": {
-    "info": "PixelFile pulsuz, açıq mənbəlidir və heç bir reklam yoxdur. Proqramı bəyənirsinizsə, ianə ilə inkişafını dəstəkləyə bilərsiniz.",
+    "info": "像素快传 pulsuz, açıq mənbəlidir və heç bir reklam yoxdur. Proqramı bəyənirsinizsə, ianə ilə inkişafını dəstəkləyə bilərsiniz.",
     "title": "İanə et",
     "donate": "{amount} ianə et",
     "thanks": "Çox təşəkkür edirəm!",
@@ -435,12 +435,12 @@
   },
   "aboutPage": {
     "description": [
-      "PixelFile internet bağlantısına ehtiyac olmadan lokal şəbəkə üzərindən yaxınlıqdakı cihazlarla faylları və mesajları təhlükəsiz paylaşmağa imkan verən pulsuz, açıq mənbəli proqramdır.",
+      "像素快传 internet bağlantısına ehtiyac olmadan lokal şəbəkə üzərindən yaxınlıqdakı cihazlarla faylları və mesajları təhlükəsiz paylaşmağa imkan verən pulsuz, açıq mənbəli proqramdır.",
       "Bu proqram Android, iOS, macOS, Windows və Linux sistemlərində mövcuddur. Bütün yükləmə variantlarını rəsmi saytda tapa bilərsiniz."
     ],
     "author": "Müəllif",
     "contributors": "Töhfə verənlər",
-    "title": "PixelFile haqqında",
+    "title": "像素快传 haqqında",
     "packagers": "Paketləyənlər",
     "translators": "Tərcüməçilər"
   },

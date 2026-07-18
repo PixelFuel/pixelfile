@@ -1,6 +1,6 @@
 {
   "locale": "Svenska",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Acceptera",
     "accepted": "Accepterad",
@@ -108,7 +108,7 @@
       "minimizeToTray": "Lämna: minimera till tray",
       "launchAtStartup": "Starta automatiskt efter inloggning",
       "launchMinimized": "Starta automatiskt: starta gömd",
-      "showInContextMenu": "Visa PixelFile i snabbmenyn",
+      "showInContextMenu": "Visa 像素快传 i snabbmenyn",
       "animations": "Animationer"
     },
     "receive": {
@@ -149,7 +149,7 @@
     },
     "other": {
       "title": "Annat",
-      "support": "Stöd PixelFile",
+      "support": "Stöd 像素快传",
       "donate": "Donera",
       "privacyPolicy": "Sekretesspolicy",
       "termsOfUse": "Användarvillkor"
@@ -208,7 +208,7 @@
   "receiveOptionsPage": {
     "title": "Alternativ",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(PixelFile-mappen)",
+    "appDirectory": "(像素快传-mappen)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Avstängd automatiskt eftersom det finns kataloger."
   },
@@ -257,13 +257,13 @@
     "autoAccept": "Acceptera förfrågningar automatiskt",
     "requirePin": "Kräv PIN-kod",
     "pinHint": "PIN-koden är \"{pin}\"",
-    "encryptionHint": "PixelFile använder ett självsignerat certifikat. Du behöver acceptera det i webbläsaren.",
+    "encryptionHint": "像素快传 använder ett självsignerat certifikat. Du behöver acceptera det i webbläsaren.",
     "pendingRequests": "Väntande förfrågningar: {n}"
   },
   "aboutPage": {
-    "title": "Om PixelFile",
+    "title": "Om 像素快传",
     "description": [
-      "PixelFile är fri programvara med öppen källkod som låter dig säkert dela filer och meddelanden med enheter i närheten över ditt lokala nätverk utan att behöva en internetanslutning.",
+      "像素快传 är fri programvara med öppen källkod som låter dig säkert dela filer och meddelanden med enheter i närheten över ditt lokala nätverk utan att behöva en internetanslutning.",
       "Denna app är tillgänglig på Android, iOS, macOS, Windows och Linux. Du kan hitta alla nedladdningsalternativ på den officiella hemsidan."
     ],
     "author": "Upphovsman",
@@ -273,7 +273,7 @@
   },
   "donationPage": {
     "title": "Donera",
-    "info": "PixelFile är fri programvara med öppen källkod och utan några annonser. Om du gillar appen kan du stödja utvecklingen med en donation.",
+    "info": "像素快传 är fri programvara med öppen källkod och utan några annonser. Om du gillar appen kan du stödja utvecklingen med en donation.",
     "donate": "Donera {amount}",
     "thanks": "Tack så mycket!",
     "restore": "Återställ köp"
@@ -419,7 +419,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "PixelFile kan inte hitta andra enheter utan att ha behörighet att skanna det lokala nätverket. Bevilja denna behörighet i inställningarna.",
+      "description": "像素快传 kan inte hitta andra enheter utan att ha behörighet att skanna det lokala nätverket. Bevilja denna behörighet i inställningarna.",
       "gotoSettings": "Inställningar"
     },
     "messageInput": {
@@ -468,7 +468,7 @@
       "title": "Sändningslägen",
       "single": "Skickar filer till en mottagare. Valet rensas efter avslutad filöverföring.",
       "multiple": "Skickar filer till flera mottagare. Valet rensas inte.",
-      "link": "Mottagare som inte har PixelFile installerat kan ladda ner de valda filerna genom att öppna länken i deras webbläsare."
+      "link": "Mottagare som inte har 像素快传 installerat kan ladda ner de valda filerna genom att öppna länken i deras webbläsare."
     },
     "zoom": {
       "title": "URL"
@@ -481,7 +481,7 @@
   "tray": {
     "@info": "Apples Riktlinjer är väldigt strikta kring 'stäng' formuleringen.",
     "open": "@:general.open",
-    "close": "Avsluta PixelFile",
+    "close": "Avsluta 像素快传",
     "closeWindows": "Avsluta"
   },
   "web": {
@@ -527,7 +527,7 @@
   },
   "networkInterfacesPage": {
     "title": "Nätverksgränssnitt",
-    "info": "Som standard använder PixelFile alla tillgängliga nätverksgränssnitt. Du kan utesluta oönskade nätverk här. Du måste starta om servern för att tillämpa ändringarna.",
+    "info": "Som standard använder 像素快传 alla tillgängliga nätverksgränssnitt. Du kan utesluta oönskade nätverk här. Du måste starta om servern för att tillämpa ändringarna.",
     "preview": "Förhandsvisning",
     "whitelist": "Vitlista",
     "blacklist": "Svartlista"

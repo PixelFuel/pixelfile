@@ -12,7 +12,7 @@ class PixelFileLogo extends StatefulWidget {
 
 class _PixelFileLogoState extends State<PixelFileLogo> with TickerProviderStateMixin {
   static const _logoSize = 200.0;
-  static const _pixelColor = Color(0xFFFF7A00);
+  static const _pixelColor = Color(0xFFFAC88C);
 
   late final AnimationController _introController;
   late final AnimationController _breathController;
@@ -80,7 +80,7 @@ class _PixelFileLogoState extends State<PixelFileLogo> with TickerProviderStateM
                         decoration: BoxDecoration(
                           color: _pixelColor,
                           borderRadius: BorderRadius.circular(2),
-                          boxShadow: const [BoxShadow(color: Color(0x33FF7A00), blurRadius: 8)],
+                          boxShadow: const [BoxShadow(color: Color(0x55FAC88C), blurRadius: 8)],
                         ),
                       ),
                     ),
@@ -104,7 +104,7 @@ class _PixelFileLogoState extends State<PixelFileLogo> with TickerProviderStateM
         children: [
           logo,
           const Text(
-            'PixelFile',
+            '像素快传',
             style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),

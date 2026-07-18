@@ -42,7 +42,7 @@ class TranslationsSi extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'සිංහල';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$si general = _Translations$general$si._(_root);
   @override
@@ -350,7 +350,7 @@ class _Translations$receiveOptionsPage$si extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(PixelFile ෆෝල්ඩරය)';
+  String get appDirectory => '(像素快传 ෆෝල්ඩරය)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -425,8 +425,7 @@ class _Translations$webSharePage$si extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN එක "${pin}"';
   @override
-  String get encryptionHint =>
-      'PixelFile self-signed certificate එකක් භාවිතා කරයි. ඔබ විසින් එය බ්‍රවුසරය (browser) තුළ දි පිළිගැනීම (accept) අවශ්‍ය වේ.';
+  String get encryptionHint => '像素快传 self-signed certificate එකක් භාවිතා කරයි. ඔබ විසින් එය බ්‍රවුසරය (browser) තුළ දි පිළිගැනීම (accept) අවශ්‍ය වේ.';
   @override
   String pendingRequests({required Object n}) => 'Pending වන ඉල්ලීම්: ${n}';
 }
@@ -439,10 +438,10 @@ class _Translations$aboutPage$si extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'PixelFile පිළිබඳව';
+  String get title => '像素快传 පිළිබඳව';
   @override
   List<String> get description => [
-    'PixelFile යනු ඔබට අන්තර්ජාල සම්බන්ධතාවයක අවශ්‍යතාවයකින් තොරව, local ජාලයක් තුළ, සමීප උපාංග සමඟ ගොනු සහ පණිවිඩ ආරක්ෂිතව බෙදා ගත හැකි නිදහස්, විවෘත-මූලාශ්‍රය (Free and open-source) ඇප් එකකි.',
+    '像素快传 යනු ඔබට අන්තර්ජාල සම්බන්ධතාවයක අවශ්‍යතාවයකින් තොරව, local ජාලයක් තුළ, සමීප උපාංග සමඟ ගොනු සහ පණිවිඩ ආරක්ෂිතව බෙදා ගත හැකි නිදහස්, විවෘත-මූලාශ්‍රය (Free and open-source) ඇප් එකකි.',
     'මෙම ඇප් එක Android, iOS, macOS, Windows සහ Linux සඳහා පවතියි. එය ඩවුන්ලෝඩ් (Download) කරගත හැකි ආකාර අපේ අඩවියේ මුල් පිටුවෙන් සොයාගත හැක.',
   ];
   @override
@@ -466,7 +465,7 @@ class _Translations$donationPage$si extends Translations$donationPage$en {
   String get title => 'ආධාර කරන්න';
   @override
   String get info =>
-      'PixelFile නිදහස්, විවෘත-මූලාශ්‍ර වන අතර කිසිදු වෙළඳ දැන්වීමකින් තොර වේ. ඔබ මෙම ඇප් එකට කැමැති නම්, මෙහි සංවර්ධනය සඳහා මූල්‍යමය දායකත්වයක් ලබා දී සහය ලබා දීමට හැක.';
+      '像素快传 නිදහස්, විවෘත-මූලාශ්‍ර වන අතර කිසිදු වෙළඳ දැන්වීමකින් තොර වේ. ඔබ මෙම ඇප් එකට කැමැති නම්, මෙහි සංවර්ධනය සඳහා මූල්‍යමය දායකත්වයක් ලබා දී සහය ලබා දීමට හැක.';
   @override
   String donate({required Object amount}) => 'දායකත්වය ${amount}';
   @override
@@ -569,7 +568,7 @@ class _Translations$tray$si extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'PixelFile වෙතින් ඉවත් වෙන්න';
+  String get close => '像素快传 වෙතින් ඉවත් වෙන්න';
   @override
   String get closeWindows => 'පිටවීම';
 }
@@ -674,7 +673,7 @@ class _Translations$networkInterfacesPage$si extends Translations$networkInterfa
   // Translations
   @override
   String get info =>
-      'සාමාන්‍යයෙන් PixelFile ඔබගේ පවතින සියලු ජාල මුහුණත් භාවිතා කරයි. ඔබට අනවශ්‍ය මුහුණතක් වේ නම් එය මෙතනින් ඉවත් කළ හැක. ඔබ සිදු කරන වෙනස්කම් ක්‍රියාත්මක වීමට නම් server එක restart කළ යුතුය.';
+      'සාමාන්‍යයෙන් 像素快传 ඔබගේ පවතින සියලු ජාල මුහුණත් භාවිතා කරයි. ඔබට අනවශ්‍ය මුහුණතක් වේ නම් එය මෙතනින් ඉවත් කළ හැක. ඔබ සිදු කරන වෙනස්කම් ක්‍රියාත්මක වීමට නම් server එක restart කළ යුතුය.';
   @override
   String get title => 'ජාල අතුරුමුහුණත්';
   @override
@@ -800,7 +799,7 @@ class _Translations$settingsTab$general$si extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'ස්වයංක්‍රීය ආරම්භය: සඟවා ආරම්භ කරන්න';
   @override
-  String get showInContextMenu => 'Context මෙනුව තුළ PixelFile පෙන්වන්න';
+  String get showInContextMenu => 'Context මෙනුව තුළ 像素快传 පෙන්වන්න';
   @override
   String get animations => 'ඇනිමේශන්';
 }
@@ -898,7 +897,7 @@ class _Translations$settingsTab$other$si extends Translations$settingsTab$other$
   @override
   String get title => 'වෙනත්';
   @override
-  String get support => 'PixelFile සඳහා සහය දක්වන්න';
+  String get support => '像素快传 සඳහා සහය දක්වන්න';
   @override
   String get donate => 'ආධාර කරන්න';
   @override
@@ -1186,7 +1185,7 @@ class _Translations$dialogs$localNetworkUnauthorized$si extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'ජාලය ස්කෑන් (Scan) කිරීමට අවසරයක් නොමැතිව, PixelFile හට අනෙකුත් උපාංග සොයාගත නොහැක. කාරුණිකව මෙම අවසරය සැකසුම් (Settings) තුළ ලබා දෙන්න.';
+      'ජාලය ස්කෑන් (Scan) කිරීමට අවසරයක් නොමැතිව, 像素快传 හට අනෙකුත් උපාංග සොයාගත නොහැක. කාරුණිකව මෙම අවසරය සැකසුම් (Settings) තුළ ලබා දෙන්න.';
   @override
   String get gotoSettings => 'සැකසුම්';
 }
@@ -1331,7 +1330,7 @@ class _Translations$dialogs$sendModeHelp$si extends Translations$dialogs$sendMod
   String get multiple => 'ලබන්නන් කිහිපදෙනෙකු වෙත ගොනු යැවීම කරයි. ගොනු හුවමාරු කිරීමෙන් පසුව ද තේරීම මකා දමන්නේ නැත.';
   @override
   String get link =>
-      'ලබන්නන් PixelFile ස්ථාපනය කර නොමැති නම්, ඔව්න්ගේ බ්‍රවුසර් (Browser) තුළ අදාල ලින්ක් (Link) එක විවෘත කර, ගොනු බාගත (Download) කළ හැක.';
+      'ලබන්නන් 像素快传 ස්ථාපනය කර නොමැති නම්, ඔව්න්ගේ බ්‍රවුසර් (Browser) තුළ අදාල ලින්ක් (Link) එක විවෘත කර, ගොනු බාගත (Download) කළ හැක.';
 }
 
 // Path: dialogs.zoom

@@ -42,7 +42,7 @@ class TranslationsVi extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Tiếng Anh';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$vi general = _Translations$general$vi._(_root);
   @override
@@ -350,7 +350,7 @@ class _Translations$receiveOptionsPage$vi extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(Thư mục PixelFile)';
+  String get appDirectory => '(Thư mục 像素快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -425,7 +425,7 @@ class _Translations$webSharePage$vi extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'Mã PIN là "${pin}"';
   @override
-  String get encryptionHint => 'PixelFile dùng chứng chỉ tự tạo. Bạn cần chấp thuận trong trình duyệt.';
+  String get encryptionHint => '像素快传 dùng chứng chỉ tự tạo. Bạn cần chấp thuận trong trình duyệt.';
   @override
   String pendingRequests({required Object n}) => 'Yêu cầu chờ: ${n}';
 }
@@ -438,10 +438,10 @@ class _Translations$aboutPage$vi extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Thông tin về PixelFile';
+  String get title => 'Thông tin về 像素快传';
   @override
   List<String> get description => [
-    'PixelFile là một phần mềm miễn phí mã nguồn mở, giúp bạn chia sẻ tập tin cũng như tin nhắn đến các thiết bị phụ cận một cách bảo mật thông qua mạng nội bộ mà không cần kết nối mạng đến bên ngoài.',
+    '像素快传 là một phần mềm miễn phí mã nguồn mở, giúp bạn chia sẻ tập tin cũng như tin nhắn đến các thiết bị phụ cận một cách bảo mật thông qua mạng nội bộ mà không cần kết nối mạng đến bên ngoài.',
     'Ứng dụng có trên Android, iOS, macOS, Windows và Linux. Bạn có thể tìm thấy các tuỳ chọn tải ở trang chủ.',
   ];
   @override
@@ -465,7 +465,7 @@ class _Translations$donationPage$vi extends Translations$donationPage$en {
   String get title => 'Ủng hộ';
   @override
   String get info =>
-      'PixelFile là ứng dụng miễn phí, mã nguồn mở, không chứa quảng cáo. Nếu bạn yêu thích ứng dụng này, bạn có thể hỗ trợ việc phát triển bằng việc ủng hộ.';
+      '像素快传 là ứng dụng miễn phí, mã nguồn mở, không chứa quảng cáo. Nếu bạn yêu thích ứng dụng này, bạn có thể hỗ trợ việc phát triển bằng việc ủng hộ.';
   @override
   String donate({required Object amount}) => 'Ủng hộ ${amount}';
   @override
@@ -568,7 +568,7 @@ class _Translations$tray$vi extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Đóng PixelFile';
+  String get close => 'Đóng 像素快传';
   @override
   String get closeWindows => 'Thoát';
 }
@@ -673,7 +673,7 @@ class _Translations$networkInterfacesPage$vi extends Translations$networkInterfa
   // Translations
   @override
   String get info =>
-      'PixelFile mặc định sử dụng tất cả các giao diện mạng có sẵn. Bạn có thể loại trừ các mạng không mong muốn tại đây. Bạn cần khởi động lại server để áp dụng các thay đổi.';
+      '像素快传 mặc định sử dụng tất cả các giao diện mạng có sẵn. Bạn có thể loại trừ các mạng không mong muốn tại đây. Bạn cần khởi động lại server để áp dụng các thay đổi.';
   @override
   String get title => 'Card mạng';
   @override
@@ -799,7 +799,7 @@ class _Translations$settingsTab$general$vi extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Tự khởi động: Khởi động ẩn';
   @override
-  String get showInContextMenu => 'Hiển thị PixelFile ở danh mục';
+  String get showInContextMenu => 'Hiển thị 像素快传 ở danh mục';
   @override
   String get animations => 'Hoạt ảnh';
 }
@@ -897,7 +897,7 @@ class _Translations$settingsTab$other$vi extends Translations$settingsTab$other$
   @override
   String get title => 'Khác';
   @override
-  String get support => 'Hỗ trợ PixelFile';
+  String get support => 'Hỗ trợ 像素快传';
   @override
   String get donate => 'Ủng hộ';
   @override
@@ -1184,7 +1184,7 @@ class _Translations$dialogs$localNetworkUnauthorized$vi extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'PixelFile không thể tìm kiếm thiết bị khác khi không được phép quét mạng nội bộ. Vui lòng trao quyền cho ứng dụng trong cài đặt.';
+      '像素快传 không thể tìm kiếm thiết bị khác khi không được phép quét mạng nội bộ. Vui lòng trao quyền cho ứng dụng trong cài đặt.';
   @override
   String get gotoSettings => 'Cài đặt';
 }
@@ -1329,7 +1329,7 @@ class _Translations$dialogs$sendModeHelp$vi extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Gửi tập tin tới nhiều người nhận. Lựa chọn sẽ không bị xoá.';
   @override
-  String get link => 'Người nhận chưa cài đặt PixelFile có thể nhận tập tin bằng cách mở liên kết trong trình duyệt.';
+  String get link => 'Người nhận chưa cài đặt 像素快传 có thể nhận tập tin bằng cách mở liên kết trong trình duyệt.';
 }
 
 // Path: dialogs.zoom

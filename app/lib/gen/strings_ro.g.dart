@@ -42,7 +42,7 @@ class TranslationsRo extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Română';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$ro general = _Translations$general$ro._(_root);
   @override
@@ -352,7 +352,7 @@ class _Translations$receiveOptionsPage$ro extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(Dosarul PixelFile)';
+  String get appDirectory => '(Dosarul 像素快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -427,7 +427,7 @@ class _Translations$webSharePage$ro extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN-ul este "${pin}"';
   @override
-  String get encryptionHint => 'PixelFile folosește un certificat auto-semnat. Trebuie să-l accepți în browserul tău.';
+  String get encryptionHint => '像素快传 folosește un certificat auto-semnat. Trebuie să-l accepți în browserul tău.';
   @override
   String pendingRequests({required Object n}) => 'Cereri în așteptare: ${n}';
 }
@@ -440,10 +440,10 @@ class _Translations$aboutPage$ro extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Despre PixelFile';
+  String get title => 'Despre 像素快传';
   @override
   List<String> get description => [
-    'PixelFile este o aplicație gratuită și open-source care îți permite să partajezi în siguranță fișiere și mesaje cu dispozitivele din apropiere prin rețeaua ta locală, fără a avea nevoie de o conexiune la internet.',
+    '像素快传 este o aplicație gratuită și open-source care îți permite să partajezi în siguranță fișiere și mesaje cu dispozitivele din apropiere prin rețeaua ta locală, fără a avea nevoie de o conexiune la internet.',
     'Această aplicație este disponibilă pe Android, iOS, macOS, Windows și Linux. Poți găsi toate opțiunile de descărcare pe pagina oficială.',
   ];
   @override
@@ -466,7 +466,7 @@ class _Translations$donationPage$ro extends Translations$donationPage$en {
   @override
   String get title => 'Donează';
   @override
-  String get info => 'PixelFile este gratuit, open-source și fără reclame. Dacă îți place aplicația, poți susține dezvoltarea cu o donație.';
+  String get info => '像素快传 este gratuit, open-source și fără reclame. Dacă îți place aplicația, poți susține dezvoltarea cu o donație.';
   @override
   String donate({required Object amount}) => 'Donează ${amount}';
   @override
@@ -650,7 +650,7 @@ class _Translations$tray$ro extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Închide PixelFile';
+  String get close => 'Închide 像素快传';
   @override
   String get closeWindows => 'Ieșire';
 }
@@ -757,7 +757,7 @@ class _Translations$networkInterfacesPage$ro extends Translations$networkInterfa
   String get title => 'Interfețe de rețea';
   @override
   String get info =>
-      'În mod implicit, PixelFile folosește toate interfețele de rețea disponibile. Poți exclude rețelele nedorite aici. Trebuie să repornești serverul pentru a aplica modificările.';
+      'În mod implicit, 像素快传 folosește toate interfețele de rețea disponibile. Poți exclude rețelele nedorite aici. Trebuie să repornești serverul pentru a aplica modificările.';
   @override
   String get preview => 'Previzualizare';
   @override
@@ -881,7 +881,7 @@ class _Translations$settingsTab$general$ro extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Autopornire: Pornire ascunsă';
   @override
-  String get showInContextMenu => 'Afișează PixelFile în meniul contextual';
+  String get showInContextMenu => 'Afișează 像素快传 în meniul contextual';
   @override
   String get animations => 'Animații';
 }
@@ -979,7 +979,7 @@ class _Translations$settingsTab$other$ro extends Translations$settingsTab$other$
   @override
   String get title => 'Altele';
   @override
-  String get support => 'Susține PixelFile';
+  String get support => 'Susține 像素快传';
   @override
   String get donate => 'Donează';
   @override
@@ -1266,8 +1266,7 @@ class _Translations$dialogs$localNetworkUnauthorized$ro extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description =>
-      'PixelFile nu poate găsi alte dispozitive fără permisiunea de a scana rețeaua locală. Acordă această permisiune în setări.';
+  String get description => '像素快传 nu poate găsi alte dispozitive fără permisiunea de a scana rețeaua locală. Acordă această permisiune în setări.';
   @override
   String get gotoSettings => 'Setări';
 }
@@ -1411,7 +1410,7 @@ class _Translations$dialogs$sendModeHelp$ro extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Trimite fișiere la mai mulți destinatari. Selecția nu va fi ștearsă după transferul de fișiere terminate.';
   @override
-  String get link => 'Destinatarii care nu au PixelFile instalat pot descărca fișierele selectate prin deschiderea linkului în browserul lor.';
+  String get link => 'Destinatarii care nu au 像素快传 instalat pot descărca fișierele selectate prin deschiderea linkului în browserul lor.';
 }
 
 // Path: dialogs.zoom

@@ -57,7 +57,7 @@ Future<bool> isContextMenuEnabled() async {
   }
 }
 
-const _windowsFileName = 'PixelFile';
+const _windowsFileName = '像素快传';
 
 String _getWindowsFilePath(String appName) {
   final appData = Platform.environment['APPDATA'];

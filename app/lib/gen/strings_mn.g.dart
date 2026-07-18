@@ -42,7 +42,7 @@ class TranslationsMn extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Mongolian';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$mn general = _Translations$general$mn._(_root);
   @override
@@ -336,7 +336,7 @@ class _Translations$receiveOptionsPage$mn extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(PixelFile-н хавтас)';
+  String get appDirectory => '(像素快传-н хавтас)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -403,7 +403,7 @@ class _Translations$webSharePage$mn extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN код: "${pin}"';
   @override
-  String get encryptionHint => 'PixelFile нь өөрийн гарын үсэг ашигладаг тул үүнийг browser дээрээ хүлээн зөвшөөрнө үү.';
+  String get encryptionHint => '像素快传 нь өөрийн гарын үсэг ашигладаг тул үүнийг browser дээрээ хүлээн зөвшөөрнө үү.';
   @override
   String pendingRequests({required Object n}) => 'Хүлээгдэж буй хүсэлт: ${n}';
 }
@@ -416,10 +416,10 @@ class _Translations$aboutPage$mn extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'PixelFile танилцуулга';
+  String get title => '像素快传 танилцуулга';
   @override
   List<String> get description => [
-    'PixelFile нь үнэгүй, нээлттэй эхийн програм бөгөөд танд интернет холболт шаардлагагүйгээр өөрийн дотоод сүлжээгээр ойролцоох төхөөрөмжүүдтэй файл, мессежийг аюулгүйгээр хуваалцах боломтой.',
+    '像素快传 нь үнэгүй, нээлттэй эхийн програм бөгөөд танд интернет холболт шаардлагагүйгээр өөрийн дотоод сүлжээгээр ойролцоох төхөөрөмжүүдтэй файл, мессежийг аюулгүйгээр хуваалцах боломтой.',
     'Энэ програмыг Android, iOS, macOS, Windows болон Linux дээр ашиглах боломжтой. Та албан ёсны веб сайтнаас татах боломжтой.',
   ];
   @override
@@ -441,7 +441,7 @@ class _Translations$donationPage$mn extends Translations$donationPage$en {
   String get title => 'Хандив';
   @override
   String get info =>
-      'PixelFile нь үнэ төлбөргүй, нээлттэй эх сурвалжтай бөгөөд ямар ч зар сурталчилгаагүй. Хэрэв энэ програм таалагдсан бол хандивын мөнгөөр хөгжлийг дэмжих боломжтой.';
+      '像素快传 нь үнэ төлбөргүй, нээлттэй эх сурвалжтай бөгөөд ямар ч зар сурталчилгаагүй. Хэрэв энэ програм таалагдсан бол хандивын мөнгөөр хөгжлийг дэмжих боломжтой.';
   @override
   String donate({required Object amount}) => '${amount} аар хандивлах';
   @override
@@ -576,7 +576,7 @@ class _Translations$settingsTab$general$mn extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Авто эхлүүлэх: Нуугдсан эхлэх';
   @override
-  String get showInContextMenu => 'Системийн цэсэнд PixelFile-д харуулах';
+  String get showInContextMenu => 'Системийн цэсэнд 像素快传-д харуулах';
   @override
   String get animations => 'Анимэйшн';
 }
@@ -666,7 +666,7 @@ class _Translations$settingsTab$other$mn extends Translations$settingsTab$other$
   @override
   String get title => 'Бусад';
   @override
-  String get support => 'PixelFile-г дэмжих';
+  String get support => '像素快传-г дэмжих';
   @override
   String get donate => 'Хандив өгөх';
   @override

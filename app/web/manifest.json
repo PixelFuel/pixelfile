@@ -1,6 +1,6 @@
 {
-  "name": "PixelFile",
-  "short_name": "PixelFile",
+  "name": "像素快传",
+  "short_name": "像素快传",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",

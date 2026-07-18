@@ -42,7 +42,7 @@ class TranslationsId extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Indonesian';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$id general = _Translations$general$id._(_root);
   @override
@@ -348,7 +348,7 @@ class _Translations$receiveOptionsPage$id extends Translations$receiveOptionsPag
   @override
   String get title => 'Pilihan';
   @override
-  String get appDirectory => '(folder PixelFile)';
+  String get appDirectory => '(folder 像素快传)';
   @override
   String get saveToGalleryOff => 'Dimatikan secara otomatis karena ada direktori.';
 }
@@ -421,7 +421,7 @@ class _Translations$webSharePage$id extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN-nya adalah "${pin}"';
   @override
-  String get encryptionHint => 'PixelFile menggunakan sertifikat self-signed. Anda perlu menerimanya di peramban.';
+  String get encryptionHint => '像素快传 menggunakan sertifikat self-signed. Anda perlu menerimanya di peramban.';
   @override
   String pendingRequests({required Object n}) => 'Banyaknya permintaan yang tertunda: ${n}';
 }
@@ -434,10 +434,10 @@ class _Translations$aboutPage$id extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Tentang PixelFile';
+  String get title => 'Tentang 像素快传';
   @override
   List<String> get description => [
-    'PixelFile adalah aplikasi gratis dan bersumber terbuka yang memungkinkan Anda untuk membagikan berkas dan pesan secara aman dengan perangkat lain yang terhubung pada jaringan lokal tanpa memerlukan koneksi internet atau paket data.',
+    '像素快传 adalah aplikasi gratis dan bersumber terbuka yang memungkinkan Anda untuk membagikan berkas dan pesan secara aman dengan perangkat lain yang terhubung pada jaringan lokal tanpa memerlukan koneksi internet atau paket data.',
     'Aplikasi ini tersedia untuk platform Android, iOS, macOS, Windows, dan Linux. Semua pilihan pengunduhan dapat ditemukan di laman situs resmi kami.',
   ];
   @override
@@ -461,7 +461,7 @@ class _Translations$donationPage$id extends Translations$donationPage$en {
   String get title => 'Donasi';
   @override
   String get info =>
-      'PixelFile adalah aplikasi gratis, bersumber terbuka, dan bebas iklan. Jika Anda menyukai aplikasi ini, mohon berikan kami dukungan dengan cara memberikan donasi.';
+      '像素快传 adalah aplikasi gratis, bersumber terbuka, dan bebas iklan. Jika Anda menyukai aplikasi ini, mohon berikan kami dukungan dengan cara memberikan donasi.';
   @override
   String donate({required Object amount}) => 'Donasi ${amount}';
   @override
@@ -564,7 +564,7 @@ class _Translations$tray$id extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Tutup PixelFile';
+  String get close => 'Tutup 像素快传';
   @override
   String get closeWindows => 'Keluar';
 }
@@ -677,7 +677,7 @@ class _Translations$networkInterfacesPage$id extends Translations$networkInterfa
   String get blacklist => 'Daftar hitam';
   @override
   String get info =>
-      'Secara default, PixelFile menggunakan semua antarmuka jaringan yang tersedia. Anda dapat mengecualikan jaringan yang tidak diinginkan di sini. Anda perlu memulai ulang server untuk menerapkan perubahan.';
+      'Secara default, 像素快传 menggunakan semua antarmuka jaringan yang tersedia. Anda dapat mengecualikan jaringan yang tidak diinginkan di sini. Anda perlu memulai ulang server untuk menerapkan perubahan.';
 }
 
 // Path: receiveTab.infoBox
@@ -795,7 +795,7 @@ class _Translations$settingsTab$general$id extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Mulai otomatis: Berjalan di latar';
   @override
-  String get showInContextMenu => 'Tampilkan PixelFile di menu konteks';
+  String get showInContextMenu => 'Tampilkan 像素快传 di menu konteks';
   @override
   String get animations => 'Animasi';
 }
@@ -893,7 +893,7 @@ class _Translations$settingsTab$other$id extends Translations$settingsTab$other$
   @override
   String get title => 'Lainnya';
   @override
-  String get support => 'Dukung PixelFile';
+  String get support => 'Dukung 像素快传';
   @override
   String get donate => 'Donasi';
   @override
@@ -1180,7 +1180,7 @@ class _Translations$dialogs$localNetworkUnauthorized$id extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'PixelFile tidak dapat menemukan perangkat lain tanpa izin untuk memindai jaringan lokal. Mohon berikan izin ini di pengaturan.';
+      '像素快传 tidak dapat menemukan perangkat lain tanpa izin untuk memindai jaringan lokal. Mohon berikan izin ini di pengaturan.';
   @override
   String get gotoSettings => 'Pengaturan';
 }
@@ -1324,7 +1324,7 @@ class _Translations$dialogs$sendModeHelp$id extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Mengirim berkas ke beberapa penerima. Pilihan penerima tidak akan dihapus.';
   @override
-  String get link => 'Penerima yang tidak memiliki PixelFile dapat mengunduh berkas yang dipilih dengan membuka tautan di peramban.';
+  String get link => 'Penerima yang tidak memiliki 像素快传 dapat mengunduh berkas yang dipilih dengan membuka tautan di peramban.';
 }
 
 // Path: dialogs.zoom

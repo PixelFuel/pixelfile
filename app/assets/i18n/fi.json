@@ -1,6 +1,6 @@
 {
   "locale": "Finnish",
-  "appName": "PixelFile",
+  "appName": "像素快传",
   "general": {
     "accept": "Hyväksy",
     "accepted": "Hyväksytty",
@@ -108,7 +108,7 @@
       "minimizeToTray": "Poistu: Minimoi ilmoitusalueelle",
       "launchAtStartup": "Automaattinen käynnistys",
       "launchMinimized": "Automaattinen käynnistys: Käynnistä piiilotettuna",
-      "showInContextMenu": "Näytä PixelFile kontekstivalikossa",
+      "showInContextMenu": "Näytä 像素快传 kontekstivalikossa",
       "animations": "Animaatiot"
     },
     "receive": {
@@ -128,7 +128,7 @@
     },
     "network": {
       "title": "Verkko",
-      "needRestart": "Käynnistä PixelFile uudelleen saadaksesi muutokset käyttöön!",
+      "needRestart": "Käynnistä 像素快传 uudelleen saadaksesi muutokset käyttöön!",
       "server": "Palvelin",
       "alias": "Laitteen nimi",
       "deviceType": "Laitteen tyyppi",
@@ -149,7 +149,7 @@
     },
     "other": {
       "title": "Muut",
-      "support": "Tue PixelFileia",
+      "support": "Tue 像素快传ia",
       "donate": "Lahjoita",
       "privacyPolicy": "Tietosuojakäytäntö",
       "termsOfUse": "Käyttöehdot"
@@ -208,7 +208,7 @@
   "receiveOptionsPage": {
     "title": "Asetukset",
     "destination": "Vastaanottoasetukset",
-    "appDirectory": "(PixelFile-kansio)",
+    "appDirectory": "(像素快传-kansio)",
     "saveToGallery": "Tallenna galleriaan",
     "saveToGalleryOff": "Poistettu käytöstä automaattisesti, koska lähetetyissä tiedostoissa on kansioita."
   },
@@ -257,14 +257,14 @@
     "autoAccept": "Hyväksy pyynnöt automaattisesti",
     "requirePin": "Vaadi PIN-koodi",
     "pinHint": "PIN-koodi on \"{pin}\"",
-    "encryptionHint": "PixelFile käyttää itse allekirjoitettua sertifikaattia. Sinun on hyväksyttävä se selaimessasi.",
+    "encryptionHint": "像素快传 käyttää itse allekirjoitettua sertifikaattia. Sinun on hyväksyttävä se selaimessasi.",
     "pendingRequests": "Odottavat pyynnöt: {n}"
   },
   "aboutPage": {
-    "title": "Tietoja PixelFileista",
+    "title": "Tietoja 像素快传ista",
     "description": [
-      "PixelFile on ilmainen, avoimen lähdekoodin sovellus, jonka avulla voit turvallisesti jakaa tiedostoja ja lähettää viestejä läheisten laitteiden kanssa paikallisessa verkossasi ilman internet-yhteyttä.",
-      "PixelFile on saatavilla Androidille, iOS:lle, Linuxille, macOS:lle ja Windowsille. Kaikki latausvaihtoehdot löytyvät virallisilta kotisivuilta."
+      "像素快传 on ilmainen, avoimen lähdekoodin sovellus, jonka avulla voit turvallisesti jakaa tiedostoja ja lähettää viestejä läheisten laitteiden kanssa paikallisessa verkossasi ilman internet-yhteyttä.",
+      "像素快传 on saatavilla Androidille, iOS:lle, Linuxille, macOS:lle ja Windowsille. Kaikki latausvaihtoehdot löytyvät virallisilta kotisivuilta."
     ],
     "author": "Tekijä",
     "contributors": "Avustajat",
@@ -273,7 +273,7 @@
   },
   "donationPage": {
     "title": "Lahjoita",
-    "info": "PixelFile on ilmainen, avoimen lähdekoodin sovellus ilman mainoksia. Voit tukea projektia lahjoituksella, jos pidät sovelluksesta.",
+    "info": "像素快传 on ilmainen, avoimen lähdekoodin sovellus ilman mainoksia. Voit tukea projektia lahjoituksella, jos pidät sovelluksesta.",
     "donate": "Lahjoita {amount}",
     "thanks": "Suuret kiitokset!",
     "restore": "Palauta ostos"
@@ -426,7 +426,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "PixelFile ei löydä muita laitteita ilman lupaa skannata paikallisverkkoa. Anna tämä lupa asetuksissa.",
+      "description": "像素快传 ei löydä muita laitteita ilman lupaa skannata paikallisverkkoa. Anna tämä lupa asetuksissa.",
       "gotoSettings": "Asetukset"
     },
     "messageInput": {
@@ -475,7 +475,7 @@
       "title": "Lähetystilat",
       "single": "Lähettää tiedostoja yhdelle vastaanottajalle. Valinta tyhjennetään tiedostonsiirron päätyttyä.",
       "multiple": "Lähettää tiedostoja useille vastaanottajille. Valinta ei tyhjene.",
-      "link": "Vastaanottajat, joilla ei ole PixelFileia asennettuna, voivat ladata valitut tiedostot avaamalla linkin selaimessaan."
+      "link": "Vastaanottajat, joilla ei ole 像素快传ia asennettuna, voivat ladata valitut tiedostot avaamalla linkin selaimessaan."
     },
     "zoom": {
       "title": "URL"
@@ -488,7 +488,7 @@
   "tray": {
     "@info": "Applen ohjeistukset ovat hyvin tiukat 'sulje'-sanan käytöstä.",
     "open": "Avaa",
-    "close": "Lopeta PixelFile",
+    "close": "Lopeta 像素快传",
     "closeWindows": "Poistu"
   },
   "web": {
@@ -534,7 +534,7 @@
   },
   "networkInterfacesPage": {
     "title": "Verkkokäyttöliittymät",
-    "info": "Oletuksena PixelFile käyttää kaikkia saatavilla olevia verkkoliitäntöjä. Voit sulkea pois verkkoliitännät, joita et halua. Sinun tulee uudelleenkäynnistää PixelFile ottaaksesi muutokset käyttöön.",
+    "info": "Oletuksena 像素快传 käyttää kaikkia saatavilla olevia verkkoliitäntöjä. Voit sulkea pois verkkoliitännät, joita et halua. Sinun tulee uudelleenkäynnistää 像素快传 ottaaksesi muutokset käyttöön.",
     "preview": "Esikatselu",
     "whitelist": "Sallittujen lista",
     "blacklist": "Estettyjen lista"

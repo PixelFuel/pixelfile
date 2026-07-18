@@ -42,7 +42,7 @@ class TranslationsFilPh extends Translations with BaseTranslations<AppLocale, Tr
   @override
   String get locale => 'Filipino';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$fil_PH general = _Translations$general$fil_PH._(_root);
   @override
@@ -283,7 +283,7 @@ class _Translations$networkInterfacesPage$fil_PH extends Translations$networkInt
   String get title => 'Mga Interface ng Network';
   @override
   String get info =>
-      'Bilang default, ang PixelFile ay gumagamit ng lahat ng mga available na network interface. Maaari mong ibukod ang mga hindi mo gustong network dito. Kinakailangang i-restart ang server upang mai-apply ang mga pagbabago';
+      'Bilang default, ang 像素快传 ay gumagamit ng lahat ng mga available na network interface. Maaari mong ibukod ang mga hindi mo gustong network dito. Kinakailangang i-restart ang server upang mai-apply ang mga pagbabago';
   @override
   String get preview => 'Silipin';
   @override
@@ -372,7 +372,7 @@ class _Translations$receiveOptionsPage$fil_PH extends Translations$receiveOption
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(PixelFile folder)';
+  String get appDirectory => '(像素快传 folder)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -447,7 +447,7 @@ class _Translations$webSharePage$fil_PH extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'Ang Pin ay "${pin}"';
   @override
-  String get encryptionHint => 'Ang PixelFile ay gumagamit ng self-signed certificate. Kailangan mo itong i-accept sa browser.';
+  String get encryptionHint => 'Ang 像素快传 ay gumagamit ng self-signed certificate. Kailangan mo itong i-accept sa browser.';
   @override
   String pendingRequests({required Object n}) => 'Mga naka-pending na request: ${n}';
 }
@@ -460,10 +460,10 @@ class _Translations$aboutPage$fil_PH extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Tungkol sa PixelFile';
+  String get title => 'Tungkol sa 像素快传';
   @override
   List<String> get description => [
-    'Ang PixelFile ay isang libre at open-source na app na nagbibigay-daan sa secure na pagbabahagi ng mga file at mga message sa mga kalapit na device sa iyong local network nang hindi nangangailangan ng koneksyon sa internet.',
+    'Ang 像素快传 ay isang libre at open-source na app na nagbibigay-daan sa secure na pagbabahagi ng mga file at mga message sa mga kalapit na device sa iyong local network nang hindi nangangailangan ng koneksyon sa internet.',
     'Available ang app na ito sa Android, iOS, macOS, Windows, at Linux. Maaari mong mahanap ang lahat ng mga pagpipilian sa pag-download sa opisyal na homepage.',
   ];
   @override
@@ -487,7 +487,7 @@ class _Translations$donationPage$fil_PH extends Translations$donationPage$en {
   String get title => 'Mag-donate';
   @override
   String get info =>
-      'Ang PixelFile ay libre, open-source, at walang anumang mga ad. Kung iyong nagustuhan ang app, maaari mong suportahan ang development sa pamamagitan ng donasyon.';
+      'Ang 像素快传 ay libre, open-source, at walang anumang mga ad. Kung iyong nagustuhan ang app, maaari mong suportahan ang development sa pamamagitan ng donasyon.';
   @override
   String donate({required Object amount}) => 'Mag-donate ng ${amount}';
   @override
@@ -679,7 +679,7 @@ class _Translations$tray$fil_PH extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Isara ang PixelFile';
+  String get close => 'Isara ang 像素快传';
   @override
   String get closeWindows => 'Isara';
 }
@@ -891,7 +891,7 @@ class _Translations$settingsTab$general$fil_PH extends Translations$settingsTab$
   @override
   String get launchMinimized => 'Autostart: I-start nang nakatago';
   @override
-  String get showInContextMenu => 'Ipakita ang PixelFile sa context menu';
+  String get showInContextMenu => 'Ipakita ang 像素快传 sa context menu';
   @override
   String get animations => 'Animations';
 }
@@ -991,7 +991,7 @@ class _Translations$settingsTab$other$fil_PH extends Translations$settingsTab$ot
   @override
   String get title => 'Iba Pa';
   @override
-  String get support => 'Suportahan ang PixelFile';
+  String get support => 'Suportahan ang 像素快传';
   @override
   String get donate => 'Mag-donate';
   @override
@@ -1280,7 +1280,7 @@ class _Translations$dialogs$localNetworkUnauthorized$fil_PH extends Translations
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'Hindi makikita ng PixelFile ang ibang devices hangga\'t hindi nabibigyan ng permission para mag-scan sa lokal na network. Mangyaring bigyan ito ng permission sa settings.';
+      'Hindi makikita ng 像素快传 ang ibang devices hangga\'t hindi nabibigyan ng permission para mag-scan sa lokal na network. Mangyaring bigyan ito ng permission sa settings.';
   @override
   String get gotoSettings => 'Settings';
 }
@@ -1426,7 +1426,7 @@ class _Translations$dialogs$sendModeHelp$fil_PH extends Translations$dialogs$sen
   String get multiple => 'Magpadala ng mga file sa maraming recipient o tatanggap. Ang mga pagpipilian ay hindi maaalis.';
   @override
   String get link =>
-      'Ang mga recipient o tatanggap na walang nakainstall na PixelFile ay maaaring mag download nang mga napiling file sa pamamagitan ng pagbukas ng link sa kanilang browser.';
+      'Ang mga recipient o tatanggap na walang nakainstall na 像素快传 ay maaaring mag download nang mga napiling file sa pamamagitan ng pagbukas ng link sa kanilang browser.';
 }
 
 // Path: dialogs.zoom

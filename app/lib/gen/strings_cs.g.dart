@@ -42,7 +42,7 @@ class TranslationsCs extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Česky';
   @override
-  String get appName => 'PixelFile';
+  String get appName => '像素快传';
   @override
   late final _Translations$general$cs general = _Translations$general$cs._(_root);
   @override
@@ -281,7 +281,7 @@ class _Translations$networkInterfacesPage$cs extends Translations$networkInterfa
   String get title => 'Síťová rozhraní';
   @override
   String get info =>
-      'Ve výchozím nastavení používá PixelFile všechna dostupná síťová rozhraní. Zde můžete vyloučit nežádoucí sítě. Chcete-li použít změny, musíte restartovat server.';
+      'Ve výchozím nastavení používá 像素快传 všechna dostupná síťová rozhraní. Zde můžete vyloučit nežádoucí sítě. Chcete-li použít změny, musíte restartovat server.';
   @override
   String get preview => 'Náhled';
   @override
@@ -370,7 +370,7 @@ class _Translations$receiveOptionsPage$cs extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(PixelFile folder)';
+  String get appDirectory => '(像素快传 folder)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -445,7 +445,7 @@ class _Translations$webSharePage$cs extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN je "${pin}"';
   @override
-  String get encryptionHint => 'PixelFile používá self-signed certifikát. Musíte ho přijmout ve vašem prohlížeči.';
+  String get encryptionHint => '像素快传 používá self-signed certifikát. Musíte ho přijmout ve vašem prohlížeči.';
   @override
   String pendingRequests({required Object n}) => 'Čekající žádosti: ${n}';
 }
@@ -458,10 +458,10 @@ class _Translations$aboutPage$cs extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'O aplikaci PixelFile';
+  String get title => 'O aplikaci 像素快传';
   @override
   List<String> get description => [
-    'PixelFile je bezplatná aplikace s otevřeným zdrojovým kódem, která vám umožňuje bezpečně sdílet soubory a zprávy s okolními zařízeními přes vaši místní síť, aniž byste potřebovali připojení k internetu.',
+    '像素快传 je bezplatná aplikace s otevřeným zdrojovým kódem, která vám umožňuje bezpečně sdílet soubory a zprávy s okolními zařízeními přes vaši místní síť, aniž byste potřebovali připojení k internetu.',
     'Tato aplikace je dostupná pro Android, iOS, macOS, Windows a Linux. Všechny možnosti stahování najdete na oficiální domovské stránce.',
   ];
   @override
@@ -484,7 +484,7 @@ class _Translations$donationPage$cs extends Translations$donationPage$en {
   @override
   String get title => 'Darovat';
   @override
-  String get info => 'PixelFile je zdarma, open source a bez reklam. Pokud se vám aplikace líbí, můžete její vývoj podpořit darem.';
+  String get info => '像素快传 je zdarma, open source a bez reklam. Pokud se vám aplikace líbí, můžete její vývoj podpořit darem.';
   @override
   String donate({required Object amount}) => 'Darovat ${amount}';
   @override
@@ -587,7 +587,7 @@ class _Translations$tray$cs extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Ukončit PixelFile';
+  String get close => 'Ukončit 像素快传';
   @override
   String get closeWindows => 'Konec';
 }
@@ -798,7 +798,7 @@ class _Translations$settingsTab$general$cs extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Automatické spuštění: skrytý start';
   @override
-  String get showInContextMenu => 'Zobrazit PixelFile v kontextové nabídce';
+  String get showInContextMenu => 'Zobrazit 像素快传 v kontextové nabídce';
   @override
   String get animations => 'Animace';
 }
@@ -896,7 +896,7 @@ class _Translations$settingsTab$other$cs extends Translations$settingsTab$other$
   @override
   String get title => 'Ostatní';
   @override
-  String get support => 'Podpora PixelFile';
+  String get support => 'Podpora 像素快传';
   @override
   String get donate => 'Darovat';
   @override
@@ -1182,8 +1182,7 @@ class _Translations$dialogs$localNetworkUnauthorized$cs extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description =>
-      'PixelFile nemůže najít jiná zařízení, aniž by měl oprávnění skenovat místní síť. Udělte prosím toto oprávnění v nastavení.';
+  String get description => '像素快传 nemůže najít jiná zařízení, aniž by měl oprávnění skenovat místní síť. Udělte prosím toto oprávnění v nastavení.';
   @override
   String get gotoSettings => 'Nastavení';
 }
@@ -1327,7 +1326,7 @@ class _Translations$dialogs$sendModeHelp$cs extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Odešle soubory více příjemcům. Výběr nebude vymazán.';
   @override
-  String get link => 'Příjemci, kteří nemají nainstalovaný PixelFile, si mohou vybrané soubory stáhnout otevřením odkazu ve svém prohlížeči.';
+  String get link => 'Příjemci, kteří nemají nainstalovaný 像素快传, si mohou vybrané soubory stáhnout otevřením odkazu ve svém prohlížeči.';
 }
 
 // Path: dialogs.zoom
