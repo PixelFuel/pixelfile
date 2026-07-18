@@ -39,6 +39,8 @@ impl LsHttpClientV2 {
     ///
     /// Use this for HTTP-only connections or when client authentication is not needed.
     pub fn try_new_without_cert() -> Result<Self, ClientError> {
+        super::configure_lan_proxy_bypass();
+
         let _ = rustls::crypto::ring::default_provider().install_default();
 
         let client = reqwest::Client::builder()

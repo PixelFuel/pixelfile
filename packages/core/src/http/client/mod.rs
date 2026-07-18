@@ -11,8 +11,17 @@ use bytes::Bytes;
 use futures_util::StreamExt;
 use reqwest::Response;
 use serde::{Deserialize, Serialize};
+use std::sync::Once;
 use thiserror::Error;
 use tokio_stream::wrappers::ReceiverStream;
+
+const LAN_NO_PROXY: [&str; 5] = [
+    "localhost",
+    "127.0.0.1",
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+];
 
 pub enum LsHttpClient {
     V2(LsHttpClientV2),
@@ -173,6 +182,8 @@ pub(super) fn create_reqwest_client(
     cert: &str,
     timeout: Option<std::time::Duration>,
 ) -> Result<reqwest::Client, ClientError> {
+    configure_lan_proxy_bypass();
+
     let _ = rustls::crypto::ring::default_provider().install_default();
 
     let identity = {
@@ -193,6 +204,45 @@ pub(super) fn create_reqwest_client(
     let client = builder.build()?;
 
     Ok(client)
+}
+
+/// Adds local and private IPv4 destinations to the process proxy bypass list.
+///
+/// Reqwest reads this list while constructing its system proxy matcher. Keeping
+/// the existing entries preserves the configured proxy for public destinations.
+pub(super) fn configure_lan_proxy_bypass() {
+    static CONFIGURE_ONCE: Once = Once::new();
+
+    CONFIGURE_ONCE.call_once(|| {
+        let existing = ["NO_PROXY", "no_proxy"]
+            .iter()
+            .filter_map(|key| std::env::var(key).ok())
+            .filter(|value| !value.trim().is_empty())
+            .collect::<Vec<_>>()
+            .join(",");
+        let no_proxy = merge_no_proxy(&existing);
+
+        // Keep both variants aligned for HTTP libraries that prefer either one.
+        std::env::set_var("NO_PROXY", &no_proxy);
+        std::env::set_var("no_proxy", no_proxy);
+    });
+}
+
+fn merge_no_proxy(existing: &str) -> String {
+    let mut entries = existing
+        .split(',')
+        .map(str::trim)
+        .filter(|entry| !entry.is_empty())
+        .map(str::to_owned)
+        .collect::<Vec<_>>();
+
+    for required in LAN_NO_PROXY {
+        if !entries.iter().any(|entry| entry == required) {
+            entries.push(required.to_owned());
+        }
+    }
+
+    entries.join(",")
 }
 
 /// Verifies the certificate from the response.
@@ -251,5 +301,30 @@ impl ResponseExt for Response {
                 Some(message)
             },
         }))
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::merge_no_proxy;
+
+    #[test]
+    fn adds_lan_ranges_without_removing_existing_bypasses() {
+        let result = merge_no_proxy("example.internal, 203.0.113.8");
+
+        assert_eq!(
+            result,
+            "example.internal,203.0.113.8,localhost,127.0.0.1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16"
+        );
+    }
+
+    #[test]
+    fn does_not_duplicate_existing_lan_ranges() {
+        let result = merge_no_proxy("localhost,192.168.0.0/16");
+
+        assert_eq!(
+            result,
+            "localhost,192.168.0.0/16,127.0.0.1,10.0.0.0/8,172.16.0.0/12"
+        );
     }
 }
