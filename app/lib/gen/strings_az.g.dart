@@ -42,7 +42,7 @@ class TranslationsAz extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Azərbaycanca';
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'PixelFile';
   @override
   late final _Translations$general$az general = _Translations$general$az._(_root);
   @override
@@ -385,7 +385,7 @@ class _Translations$webSharePage$az extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'Sizin PIN: "${pin}"';
   @override
-  String get encryptionHint => 'LocalSend özü imzalanmış sertifikatdan istifadə edir. Siz onu brauzerinizdə qəbul etməlisiniz.';
+  String get encryptionHint => 'PixelFile özü imzalanmış sertifikatdan istifadə edir. Siz onu brauzerinizdə qəbul etməlisiniz.';
 }
 
 // Path: networkInterfacesPage
@@ -397,7 +397,7 @@ class _Translations$networkInterfacesPage$az extends Translations$networkInterfa
   // Translations
   @override
   String get info =>
-      'Defolt olaraq, LocalSend bütün mövcud şəbəkə interfeyslərindən istifadə edir. Burada istənilməyən şəbəkələri istisna edə bilərsiniz. Dəyişiklikləri tətbiq etmək üçün serveri yenidən başlatmalısınız.';
+      'Defolt olaraq, PixelFile bütün mövcud şəbəkə interfeyslərindən istifadə edir. Burada istənilməyən şəbəkələri istisna edə bilərsiniz. Dəyişiklikləri tətbiq etmək üçün serveri yenidən başlatmalısınız.';
   @override
   String get whitelist => 'Ağ siyahı';
   @override
@@ -528,7 +528,7 @@ class _Translations$tray$az extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'LocalSend-dən çıx';
+  String get close => 'PixelFile-dən çıx';
 }
 
 // Path: apkPickerPage
@@ -581,7 +581,7 @@ class _Translations$receiveOptionsPage$az extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(LocalSend qovluğu)';
+  String get appDirectory => '(PixelFile qovluğu)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -614,7 +614,7 @@ class _Translations$donationPage$az extends Translations$donationPage$en {
   // Translations
   @override
   String get info =>
-      'LocalSend pulsuz, açıq mənbəlidir və heç bir reklam yoxdur. Proqramı bəyənirsinizsə, ianə ilə inkişafını dəstəkləyə bilərsiniz.';
+      'PixelFile pulsuz, açıq mənbəlidir və heç bir reklam yoxdur. Proqramı bəyənirsinizsə, ianə ilə inkişafını dəstəkləyə bilərsiniz.';
   @override
   String get title => 'İanə et';
   @override
@@ -645,7 +645,7 @@ class _Translations$aboutPage$az extends Translations$aboutPage$en {
   // Translations
   @override
   List<String> get description => [
-    'LocalSend internet bağlantısına ehtiyac olmadan lokal şəbəkə üzərindən yaxınlıqdakı cihazlarla faylları və mesajları təhlükəsiz paylaşmağa imkan verən pulsuz, açıq mənbəli proqramdır.',
+    'PixelFile internet bağlantısına ehtiyac olmadan lokal şəbəkə üzərindən yaxınlıqdakı cihazlarla faylları və mesajları təhlükəsiz paylaşmağa imkan verən pulsuz, açıq mənbəli proqramdır.',
     'Bu proqram Android, iOS, macOS, Windows və Linux sistemlərində mövcuddur. Bütün yükləmə variantlarını rəsmi saytda tapa bilərsiniz.',
   ];
   @override
@@ -653,7 +653,7 @@ class _Translations$aboutPage$az extends Translations$aboutPage$en {
   @override
   String get contributors => 'Töhfə verənlər';
   @override
-  String get title => 'LocalSend haqqında';
+  String get title => 'PixelFile haqqında';
   @override
   String get packagers => 'Paketləyənlər';
   @override
@@ -799,7 +799,7 @@ class _Translations$settingsTab$general$az extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Birbaşa başlat: Gizli başlat';
   @override
-  String get showInContextMenu => 'Məzmun menyusunda LocalSend-i göstər';
+  String get showInContextMenu => 'Məzmun menyusunda PixelFile-i göstər';
   @override
   String get animations => 'Animasiyalar';
 }
@@ -897,7 +897,7 @@ class _Translations$settingsTab$other$az extends Translations$settingsTab$other$
   @override
   String get title => 'Digər';
   @override
-  String get support => 'LocalSend-i dəstəklə';
+  String get support => 'PixelFile-i dəstəklə';
   @override
   String get donate => 'İanə et';
   @override
@@ -992,7 +992,7 @@ class _Translations$dialogs$localNetworkUnauthorized$az extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'LocalSend lokal şəbəkəni skan etmək icazəsi olmadan digər cihazları tapa bilmir. Zəhmət olmasa, parametrlərdən bu icazəni verin.';
+      'PixelFile lokal şəbəkəni skan etmək icazəsi olmadan digər cihazları tapa bilmir. Zəhmət olmasa, parametrlərdən bu icazəni verin.';
   @override
   String get gotoSettings => 'Parametrlər';
 }
@@ -1039,7 +1039,7 @@ class _Translations$dialogs$sendModeHelp$az extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Faylları birdən çox cihaza göndərir. Faylların ötürülməsi tamamlandıqdan sonra seçim silinməyəcək.';
   @override
-  String get link => 'LocalSend-i quraşdırmamış alıcılar linki brauzerlərində açaraq seçilmiş faylları endirə bilərlər.';
+  String get link => 'PixelFile-i quraşdırmamış alıcılar linki brauzerlərində açaraq seçilmiş faylları endirə bilərlər.';
 }
 
 // Path: dialogs.favoriteDialog

@@ -42,7 +42,7 @@ class TranslationsDa extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Dansk';
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'PixelFile';
   @override
   late final _Translations$general$da general = _Translations$general$da._(_root);
   @override
@@ -350,7 +350,7 @@ class _Translations$receiveOptionsPage$da extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(LocalSend mappe)';
+  String get appDirectory => '(PixelFile mappe)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -425,7 +425,7 @@ class _Translations$webSharePage$da extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN-koden er "${pin}"';
   @override
-  String get encryptionHint => 'LocalSend bruger et selvsigneret certifikat. Du skal acceptere det i din browser.';
+  String get encryptionHint => 'PixelFile bruger et selvsigneret certifikat. Du skal acceptere det i din browser.';
   @override
   String pendingRequests({required Object n}) => 'Afventende forespørgsler: ${n}';
 }
@@ -438,10 +438,10 @@ class _Translations$aboutPage$da extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Om LocalSend';
+  String get title => 'Om PixelFile';
   @override
   List<String> get description => [
-    'LocalSend er en gratis, open source-app, der lader dig dele filer og beskeder sikkert med enheder i nærheden over dit lokale netværk uden behov for en internetforbindelse.',
+    'PixelFile er en gratis, open source-app, der lader dig dele filer og beskeder sikkert med enheder i nærheden over dit lokale netværk uden behov for en internetforbindelse.',
     'Appen er tilgængelig på Android, iOS, macOS, Windows og Linux. Du finder alle downloadmuligheder på den officielle hjemmeside.',
   ];
   @override
@@ -464,7 +464,7 @@ class _Translations$donationPage$da extends Translations$donationPage$en {
   @override
   String get title => 'Donér';
   @override
-  String get info => 'LocalSend er gratis, open source og uden annoncer. Hvis du kan lide appen, kan du støtte udviklingen med en donation.';
+  String get info => 'PixelFile er gratis, open source og uden annoncer. Hvis du kan lide appen, kan du støtte udviklingen med en donation.';
   @override
   String donate({required Object amount}) => 'Donér ${amount}';
   @override
@@ -567,7 +567,7 @@ class _Translations$tray$da extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Afslut LocalSend';
+  String get close => 'Afslut PixelFile';
   @override
   String get closeWindows => 'Luk';
 }
@@ -674,7 +674,7 @@ class _Translations$networkInterfacesPage$da extends Translations$networkInterfa
   String get title => 'Netværksgrænseflader';
   @override
   String get info =>
-      'Som standard bruger LocalSend alle tilgængelige netværksgrænseflader. Du kan ekskludere uønskede netværk her. Du skal genstarte serveren for at anvende ændringerne.';
+      'Som standard bruger PixelFile alle tilgængelige netværksgrænseflader. Du kan ekskludere uønskede netværk her. Du skal genstarte serveren for at anvende ændringerne.';
   @override
   String get preview => 'Forhåndsvisning';
   @override
@@ -798,7 +798,7 @@ class _Translations$settingsTab$general$da extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Autostart: Start skjult';
   @override
-  String get showInContextMenu => 'Vis LocalSend i kontekstmenu';
+  String get showInContextMenu => 'Vis PixelFile i kontekstmenu';
   @override
   String get animations => 'Animationer';
 }
@@ -896,7 +896,7 @@ class _Translations$settingsTab$other$da extends Translations$settingsTab$other$
   @override
   String get title => 'Andet';
   @override
-  String get support => 'Støt LocalSend';
+  String get support => 'Støt PixelFile';
   @override
   String get donate => 'Donér';
   @override
@@ -1170,7 +1170,7 @@ class _Translations$dialogs$localNetworkUnauthorized$da extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'LocalSend kan ikke finde andre enheder uden tilladelse til at scanne det lokale netværk. Giv venligst tilladelse i systemindstillingerne.';
+      'PixelFile kan ikke finde andre enheder uden tilladelse til at scanne det lokale netværk. Giv venligst tilladelse i systemindstillingerne.';
   @override
   String get gotoSettings => 'Indstillinger';
 }
@@ -1314,7 +1314,7 @@ class _Translations$dialogs$sendModeHelp$da extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Sender filer til flere modtager. Valget ryddes ikke efter filoverførsel er færdig.';
   @override
-  String get link => 'Modtagere, der ikke har LocalSend installeret, kan hente de valgte filer ved at åbne linket i deres browser.';
+  String get link => 'Modtagere, der ikke har PixelFile installeret, kan hente de valgte filer ved at åbne linket i deres browser.';
 }
 
 // Path: dialogs.zoom

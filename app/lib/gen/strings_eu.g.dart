@@ -42,7 +42,7 @@ class TranslationsEu extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Euskara';
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'PixelFile';
   @override
   late final _Translations$general$eu general = _Translations$general$eu._(_root);
   @override
@@ -415,7 +415,7 @@ class _Translations$webSharePage$eu extends Translations$webSharePage$en {
   @override
   String get encryption => _root.settingsTab.network.encryption;
   @override
-  String get encryptionHint => 'LocalSend-ek autosinatutako zertifikatuak erabiltzen ditu. Nabigatzailean onartu behar duzu';
+  String get encryptionHint => 'PixelFile-ek autosinatutako zertifikatuak erabiltzen ditu. Nabigatzailean onartu behar duzu';
   @override
   String pendingRequests({required Object n}) => 'Eskerak: ${n}';
 }
@@ -428,7 +428,7 @@ class _Translations$aboutPage$eu extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'LocalSend buruz';
+  String get title => 'PixelFile buruz';
 }
 
 // Path: changelogPage
@@ -501,7 +501,7 @@ class _Translations$tray$eu extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Itxi LocalSend';
+  String get close => 'Itxi PixelFile';
 }
 
 // Path: web
@@ -728,7 +728,7 @@ class _Translations$settingsTab$general$eu extends Translations$settingsTab$gene
   @override
   String get saveWindowPlacementWindows => 'Irteeran leihoaren kokapena gorde';
   @override
-  String get showInContextMenu => 'Erakutsi LocalSend testuinguru menuan';
+  String get showInContextMenu => 'Erakutsi PixelFile testuinguru menuan';
 }
 
 // Path: settingsTab.receive
@@ -822,7 +822,7 @@ class _Translations$settingsTab$other$eu extends Translations$settingsTab$other$
   @override
   String get title => 'Besteak';
   @override
-  String get support => 'LocalSend Lagundu';
+  String get support => 'PixelFile Lagundu';
   @override
   String get donate => 'Dohaintza egin';
   @override
@@ -1082,7 +1082,7 @@ class _Translations$dialogs$localNetworkUnauthorized$eu extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'Sare lokala eskaneatzeko baimenik gabe, LocalSend-ek ezin ditu inguruko gailuak aurkitu. Mesedez, onartu baimen hau ezarpenetan.';
+      'Sare lokala eskaneatzeko baimenik gabe, PixelFile-ek ezin ditu inguruko gailuak aurkitu. Mesedez, onartu baimen hau ezarpenetan.';
   @override
   String get gotoSettings => 'Ezarpenak';
 }
@@ -1199,7 +1199,7 @@ class _Translations$dialogs$sendModeHelp$eu extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Bidali fitxategiak hartzaile anitzeri. Aukeraketa ez da garbituko.';
   @override
-  String get link => 'LocalSend instalatuta ez duten hartzaileak fitxategiak eskuratu ahali zango dituzte lotura nabigatzailean zabalduz.';
+  String get link => 'PixelFile instalatuta ez duten hartzaileak fitxategiak eskuratu ahali zango dituzte lotura nabigatzailean zabalduz.';
 }
 
 // Path: settingsTab.general.brightnessOptions

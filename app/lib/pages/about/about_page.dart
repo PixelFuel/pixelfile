@@ -38,9 +38,9 @@ class AboutPage extends StatelessWidget {
           Center(
             child: TextButton(
               onPressed: () async {
-                await launchUrl(Uri.parse('https://localsend.org'));
+                await launchUrl(Uri.parse('https://www.pixelfuel.cn'));
               },
-              child: const Text('localsend.org'),
+              child: const Text('www.pixelfuel.cn'),
             ),
           ),
           const SizedBox(height: 10),
@@ -135,7 +135,7 @@ class AboutPage extends StatelessWidget {
             children: [
               TextButton(
                 onPressed: () async {
-                  await launchUrl(Uri.parse('https://localsend.org'));
+                  await launchUrl(Uri.parse('https://www.pixelfuel.cn'));
                 },
                 child: const Text('Homepage'),
               ),

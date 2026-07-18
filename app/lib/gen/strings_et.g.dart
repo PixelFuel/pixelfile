@@ -42,7 +42,7 @@ class TranslationsEt extends Translations with BaseTranslations<AppLocale, Trans
   @override
   String get locale => 'Eesti keel';
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'PixelFile';
   @override
   late final _Translations$general$et general = _Translations$general$et._(_root);
   @override
@@ -350,7 +350,7 @@ class _Translations$receiveOptionsPage$et extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(LocalSendi kaust)';
+  String get appDirectory => '(PixelFilei kaust)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -427,7 +427,7 @@ class _Translations$webSharePage$et extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN-kood on „${pin}“';
   @override
-  String get encryptionHint => 'LocalSend kasutab enda poolt allkirjastatud sertifikaate. Ühenduse toimimiseks palun nõustu nendega veebibrauseris.';
+  String get encryptionHint => 'PixelFile kasutab enda poolt allkirjastatud sertifikaate. Ühenduse toimimiseks palun nõustu nendega veebibrauseris.';
   @override
   String pendingRequests({required Object n}) => 'Ootel päringuid: ${n}';
 }
@@ -440,10 +440,10 @@ class _Translations$aboutPage$et extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Rakenduse teave: LocalSend';
+  String get title => 'Rakenduse teave: PixelFile';
   @override
   List<String> get description => [
-    'LocalSend põhineb avatud lähtekoodil, on kõikide jaoks vaba ning tasuta kasutatav. Rakenduse eesmärgiks on võimaldada failide ja tekstide jagamist kohtvõrgus asuvate arvutite vahel nii, et välist internetiühendust pole vaja kasutada.',
+    'PixelFile põhineb avatud lähtekoodil, on kõikide jaoks vaba ning tasuta kasutatav. Rakenduse eesmärgiks on võimaldada failide ja tekstide jagamist kohtvõrgus asuvate arvutite vahel nii, et välist internetiühendust pole vaja kasutada.',
     'See rakendus on saadaval Androidi, iOSi, macOSi, Windowsi ja Linuxi jaoks. Kõik allalaaditavad paigaldusfailid leiad meie ametlikust veebisaidist.',
   ];
   @override
@@ -467,7 +467,7 @@ class _Translations$donationPage$et extends Translations$donationPage$en {
   String get title => 'Toeta meid rahaliselt';
   @override
   String get info =>
-      'LocalSend põhineb avatud lähtekoodil, on kõikide jaoks vaba ning tasuta kasutatav, ega sisalda reklaame. Kui sulle see rakendus meeldib, siis palun toeta meie arendust.';
+      'PixelFile põhineb avatud lähtekoodil, on kõikide jaoks vaba ning tasuta kasutatav, ega sisalda reklaame. Kui sulle see rakendus meeldib, siis palun toeta meie arendust.';
   @override
   String donate({required Object amount}) => 'Anneta ${amount}';
   @override
@@ -570,7 +570,7 @@ class _Translations$tray$et extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Sulge LocalSend';
+  String get close => 'Sulge PixelFile';
   @override
   String get closeWindows => 'Välju';
 }
@@ -683,7 +683,7 @@ class _Translations$networkInterfacesPage$et extends Translations$networkInterfa
   String get blacklist => 'Keelatud loend';
   @override
   String get info =>
-      'Vaikimisi kasutab LocalSend kõiki võrguliideseid. Kui sul on vaja, siis saad mittesoovitud võrgud siinkohal välistada ning muudatuste jõustumine eeldab serverikomponendi uuesti käivitamist.';
+      'Vaikimisi kasutab PixelFile kõiki võrguliideseid. Kui sul on vaja, siis saad mittesoovitud võrgud siinkohal välistada ning muudatuste jõustumine eeldab serverikomponendi uuesti käivitamist.';
 }
 
 // Path: receiveTab.infoBox
@@ -801,7 +801,7 @@ class _Translations$settingsTab$general$et extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Automaatsel käivitamisel: käivita peidetuna';
   @override
-  String get showInContextMenu => 'Näita LocalSendi kontekstimenüüs';
+  String get showInContextMenu => 'Näita PixelFilei kontekstimenüüs';
   @override
   String get animations => 'Animatsioonid';
 }
@@ -899,7 +899,7 @@ class _Translations$settingsTab$other$et extends Translations$settingsTab$other$
   @override
   String get title => 'Muu teave';
   @override
-  String get support => 'Toeta LocalSendi';
+  String get support => 'Toeta PixelFilei';
   @override
   String get donate => 'Toeta rahaliselt';
   @override
@@ -1208,7 +1208,7 @@ class _Translations$dialogs$localNetworkUnauthorized$et extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'Ilma kohtvõrgu skaneerimise õiguseta ei suuda LocalSend leida teisi seadmeid. Palun luba süsteemi seadistustest vajalikud õigused.';
+      'Ilma kohtvõrgu skaneerimise õiguseta ei suuda PixelFile leida teisi seadmeid. Palun luba süsteemi seadistustest vajalikud õigused.';
   @override
   String get gotoSettings => 'Seadistused';
 }
@@ -1353,7 +1353,7 @@ class _Translations$dialogs$sendModeHelp$et extends Translations$dialogs$sendMod
   String get multiple => 'Sellega saadame faile mitmele vastuvõtjale. Peale failide saatmise lõppu failid jäävad saatmisloendisse alles.';
   @override
   String get link =>
-      'Kui failide vastuvõtjatel pole arvutis või nutiseadmes rakendust LocalSend, siis avades etteantud lingi oma veebibrauseris, saavad nad failid alla laadida.';
+      'Kui failide vastuvõtjatel pole arvutis või nutiseadmes rakendust PixelFile, siis avades etteantud lingi oma veebibrauseris, saavad nad failid alla laadida.';
 }
 
 // Path: dialogs.zoom
