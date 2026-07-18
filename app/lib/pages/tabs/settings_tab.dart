@@ -28,7 +28,7 @@ import 'package:localsend_app/widget/dialogs/quick_save_notice.dart';
 import 'package:localsend_app/widget/dialogs/text_field_tv.dart';
 import 'package:localsend_app/widget/dialogs/text_field_with_actions.dart';
 import 'package:localsend_app/widget/labeled_checkbox.dart';
-import 'package:localsend_app/widget/local_send_logo.dart';
+import 'package:localsend_app/widget/pixelfile_logo.dart';
 import 'package:localsend_app/widget/responsive_list_view.dart';
 import 'package:localsend_isolates/constants.dart';
 import 'package:localsend_isolates/model/device.dart';
@@ -546,7 +546,7 @@ class SettingsTab extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 20),
-                  const LocalSendLogo(withText: true),
+                  const PixelFileLogo(withText: true),
                   const SizedBox(height: 5),
                   ref
                       .watch(versionProvider)

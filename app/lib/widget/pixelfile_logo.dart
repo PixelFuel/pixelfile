@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class LocalSendLogo extends StatefulWidget {
+class PixelFileLogo extends StatefulWidget {
   final bool withText;
 
-  const LocalSendLogo({required this.withText, super.key});
+  const PixelFileLogo({required this.withText, super.key});
 
   @override
-  State<LocalSendLogo> createState() => _LocalSendLogoState();
+  State<PixelFileLogo> createState() => _PixelFileLogoState();
 }
 
-class _LocalSendLogoState extends State<LocalSendLogo> with TickerProviderStateMixin {
+class _PixelFileLogoState extends State<PixelFileLogo> with TickerProviderStateMixin {
   static const _logoSize = 200.0;
   static const _pixelColor = Color(0xFFFF7A00);
 

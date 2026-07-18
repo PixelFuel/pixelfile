@@ -11,7 +11,7 @@ import 'package:localsend_app/util/native/platform_check.dart';
 import 'package:localsend_app/widget/animations/initial_fade_transition.dart';
 import 'package:localsend_app/widget/column_list_view.dart';
 import 'package:localsend_app/widget/custom_icon_button.dart';
-import 'package:localsend_app/widget/local_send_logo.dart';
+import 'package:localsend_app/widget/pixelfile_logo.dart';
 import 'package:localsend_app/widget/responsive_list_view.dart';
 import 'package:localsend_app/widget/rotating_widget.dart';
 import 'package:refena_flutter/refena_flutter.dart';
@@ -57,7 +57,7 @@ class ReceiveTab extends StatelessWidget {
                               return RotatingWidget(
                                 duration: const Duration(seconds: 15),
                                 spinning: vm.serverState != null && animations && activeTab == HomeTab.receive,
-                                child: const LocalSendLogo(withText: false),
+                                child: const PixelFileLogo(withText: false),
                               );
                             },
                           ),

@@ -20,7 +20,7 @@ class TroubleshootPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final settings = context.ref.watch(settingsProvider);
     return Scaffold(
-      appBar: basicLocalSendAppbar(t.troubleshootPage.title),
+      appBar: basicPixelFileAppbar(t.troubleshootPage.title),
       body: ResponsiveListView(
         padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 30),
         children: [

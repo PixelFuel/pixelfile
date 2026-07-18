@@ -102,7 +102,7 @@ class _WebSendPageState extends State<WebSendPage> with Refena {
       },
       canPop: false,
       child: Scaffold(
-        appBar: basicLocalSendAppbar(t.webSharePage.title),
+        appBar: basicPixelFileAppbar(t.webSharePage.title),
         body: Builder(
           builder: (context) {
             if (_stateEnum != _ServerState.running) {
